@@ -1,171 +1,187 @@
 let productsTemplate = {
     url: 'url("./assets/imgs/header/products.png")',
-    template: `<p class="fw-bold">Caffè Mauro</p> 
+    lg: 'url("./assets/imgs/header/products-lg.png")',
+    template: `<p class="fw-bold">Caffè Mauro</p>
     <hr>
-    
-    <div class="row">
-        <div class="col">
-            <div class="card">
+
+    <div class="row row-cols-lg-2 g-lg-5">
+        <div class="col col-lg-6">
+            <div class="card mx-auto">
                 <h5 class="card-header fw-bold">CAFFÈ MAURO 100% ARÁBICA</h5>
                 <img src="./assets/imgs/productos/caffe-mauro/arabica.svg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <p class="card-text">Refinada y exclusiva, la mezcla de granos de Arábica de Caffè Mauro Centopercento está compuesta por finos cafés arábigos procedentes de plantaciones naturales de café brasileño y lavado de América Central. De sabor dulce y aromático, presenta agradables notas cítricas y aromas florales dulces.</p>
-                  <h6 class="fw-bold">Formato: 1000g</h6>
+                    <p class="card-text">Refinada y exclusiva, la mezcla de granos de Arábica de Caffè Mauro
+                        Centopercento está compuesta por finos cafés arábigos procedentes de plantaciones
+                        naturales de café brasileño y lavado de América Central. De sabor dulce y aromático,
+                        presenta agradables notas cítricas y aromas florales dulces.</p>
+                    <h6 class="fw-bold">Formato: 1000g</h6>
                 </div>
             </div>
         </div>
-        <div class="col">
-            <div class="card">
+        <div class="col col-lg-6">
+            <div class="card mx-auto">
                 <h5 class="card-header fw-bold">CAFFÈ MAURO DE LUXE</h5>
                 <img src="./assets/imgs/productos/caffe-mauro/deluxe.svg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <p class="card-text">Es una mezcla elegante y aromática. Al degustarlo se evidencia mucho cuerpo y un sabor redondo. Los finos arábicas brasileños naturales aportan notas florales, los centroamericanos lavados dan una agradable acidez frutal equilibrada por el final de cacao típico de los robustas naturales indios.</p>
-                  <h6 class="fw-bold">Formato: 1000g</h6>
+                    <p class="card-text">Es una mezcla elegante y aromática. Al degustarlo se evidencia mucho
+                        cuerpo y un sabor redondo. Los finos arábicas brasileños naturales aportan notas
+                        florales, los centroamericanos lavados dan una agradable acidez frutal equilibrada por
+                        el final de cacao típico de los robustas naturales indios.</p>
+                    <h6 class="fw-bold">Formato: 1000g</h6>
                 </div>
             </div>
         </div>
-        <div class="col">
-            <div class="card">
+        <div class="col col-lg-6">
+            <div class="card mx-auto">
                 <h5 class="card-header fw-bold">CAFFÈ MAURO PREMIUM</h5>
                 <img src="./assets/imgs/productos/caffe-mauro/premium.svg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <p class="card-text">Una mezcla equilibrada y envolvente. Notas de cacao y especias llenan el paladar, realzando la particularidad de las mejores robustas africanas naturales. La fusión entre la floralidad sudamericana y la brillante acidez frutal típica de las tierras altas de Etiopía completa una taza con una personalidad única.</p>
-                  <h6 class="fw-bold">Formato: 1000g</h6>
+                    <p class="card-text">Una mezcla equilibrada y envolvente. Notas de cacao y especias llenan
+                        el paladar, realzando la particularidad de las mejores robustas africanas naturales. La
+                        fusión entre la floralidad sudamericana y la brillante acidez frutal típica de las
+                        tierras altas de Etiopía completa una taza con una personalidad única.</p>
+                    <h6 class="fw-bold">Formato: 1000g</h6>
                 </div>
             </div>
         </div>
-        <div class="col">
-            <div class="card">
+        <div class="col col-lg-6">
+            <div class="card mx-auto">
                 <h5 class="card-header fw-bold">CAFFÈ MAURO SPECIAL BAR</h5>
                 <img src="./assets/imgs/productos/caffe-mauro/special.svg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <p class="card-text">Mezcla de sabor fuerte, con la dulzura de los arábicas brasileños sobre el fondo de finos robustas del sudeste asiático y africano que le dan cuerpo, floralidad con un agradable final a madera y tabaco.</p>
-                  <h6 class="fw-bold">Formato: 1000g</h6>
+                    <p class="card-text">Mezcla de sabor fuerte, con la dulzura de los arábicas brasileños sobre
+                        el fondo de finos robustas del sudeste asiático y africano que le dan cuerpo, floralidad
+                        con un agradable final a madera y tabaco.</p>
+                    <h6 class="fw-bold">Formato: 1000g</h6>
                 </div>
             </div>
         </div>
-        <div class="col">
-            <div class="card">
+        <div class="col col-lg-6">
+            <div class="card mx-auto">
                 <h5 class="card-header fw-bold">CAFFÈ MAURO PERÚ ORGÁNICO</h5>
                 <img src="./assets/imgs/productos/caffe-mauro/peru.svg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <p class="card-text">Desarrollo solidario, reforestación y protección de la biodiversidad Respect Perù 100% Arábica representa el compromiso de la empresa tostadora Caffè Mauro con el apoyo a los productores, la biodiversidad y la protección del medio ambiente.</p>
-                  <h6 class="fw-bold">Formato: 1000g</h6>
+                    <p class="card-text">Desarrollo solidario, reforestación y protección de la biodiversidad
+                        Respect Perù 100% Arábica representa el compromiso de la empresa tostadora Caffè Mauro
+                        con el apoyo a los productores, la biodiversidad y la protección del medio ambiente.</p>
+                    <h6 class="fw-bold">Formato: 1000g</h6>
                 </div>
             </div>
         </div>
-    
+
     </div>
-    
+
     <p class="fw-bold">Café descafeinado Cialde</p>
     <hr>
-    
-    <p class="text-product mx-auto">Nuestra mezcla descafeinada es un café delicado con notas dulces y afrutadas. Para una taza con mucho cuerpo, con aromas de fruta madura y flores frescas. Es ideal para cualquier momento del día.</p>
-    
-    <div class="row">
+
+    <p class="text-product mx-auto mx-lg-0 me-lg-auto">Nuestra mezcla descafeinada es un café delicado con notas dulces y
+        afrutadas. Para una taza con mucho cuerpo, con aromas de fruta madura y flores frescas. Es ideal para
+        cualquier momento del día.</p>
+
+    <div class="row row-cols-lg-2 g-lg-5">
         <div class="col">
-            <div class="card card-medium">
+            <div class="card card-medium mx-auto">
                 <h5 class="card-header fw-bold">CAFFÈ MAURO DESCAFEINADO</h5>
                 <img src="./assets/imgs/productos/caffe-descaf/Group 20.svg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <h6 class="fw-bold">Formato caja: 18 compostables</h6>
+                    <h6 class="fw-bold">Formato caja: 18 compostables</h6>
                 </div>
             </div>
-    
+
         </div>
     </div>
-    
-    <div class="collapse" id="collapseProducts">
-    
+
+    <div class="collapse d-lg-block" id="collapseProducts">
+
         <p class="fw-bold">Cápsulas compatibles Nesspreso</p>
         <hr>
-    
-        <div class="row">
+
+        <div class="row row-cols-lg-2 g-lg-5">
             <div class="col">
-                <div class="card card-medium">
+                <div class="card card-medium mx-auto">
                     <h5 class="card-header fw-bold">CAFFÈ MAURO 100% ARÁBICA</h5>
                     <img src="./assets/imgs/productos/capsulas/arabica.svg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h6 class="fw-bold">Formato caja: 10 cápsulas</h6>
+                        <h6 class="fw-bold">Formato caja: 10 cápsulas</h6>
                     </div>
                 </div>
-    
+
             </div>
             <div class="col">
-                <div class="card card-medium">
+                <div class="card card-medium mx-auto">
                     <h5 class="card-header fw-bold">CAFFÈ MAURO DE LUXE</h5>
                     <img src="./assets/imgs/productos/capsulas/deluxe.svg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h6 class="fw-bold">Formato caja: 10 cápsulas</h6>
+                        <h6 class="fw-bold">Formato caja: 10 cápsulas</h6>
                     </div>
                 </div>
-    
+
             </div>
         </div>
-    
+
         <p class="fw-bold">PODS Aluminios compatibles
             Nespresso</p>
         <hr>
-    
-        <p class="text-product mx-auto">Cápsulas Compatibles con máquinas marca Nespresso®</p>
-    
-        <div class="row">
+
+        <p class="text-product mx-auto mx-lg-0 me-lg-auto">Cápsulas Compatibles con máquinas marca Nespresso®</p>
+
+        <div class="row row-cols-lg-2 g-lg-5">
             <div class="col">
-                <div class="card card-medium">
+                <div class="card card-medium mx-auto">
                     <h5 class="card-header fw-bold">CAFFÈ MAURO 100% ARÁBICA</h5>
                     <img src="./assets/imgs/productos/pods/arabica.svg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h6 class="fw-bold">Formato caja: 50 vainas</h6>
+                        <h6 class="fw-bold">Formato caja: 50 vainas</h6>
                     </div>
                 </div>
-    
+
             </div>
             <div class="col">
-                <div class="card card-medium">
+                <div class="card card-medium mx-auto">
                     <h5 class="card-header fw-bold">CAFFÈ MAURO DE LUXE</h5>
                     <img src="./assets/imgs/productos/pods/deluxe.svg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h6 class="fw-bold">Formato caja: 50 vainas</h6>
+                        <h6 class="fw-bold">Formato caja: 50 vainas</h6>
                     </div>
                 </div>
-    
+
             </div>
         </div>
-    
+
         <p class="fw-bold">Café molido</p>
         <hr>
-    
-        <div class="row">
+
+        <div class="row row-cols-lg-2 g-lg-5">
             <div class="col">
-                <div class="card card-medium">
+                <div class="card card-medium mx-auto">
                     <h5 class="card-header fw-bold">CAFFÈ MAURO 100% ARÁBICA</h5>
                     <img src="./assets/imgs/productos/cafe-molido/arabica.svg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h6 class="fw-bold">Formato lata: 250 g</h6>
+                        <h6 class="fw-bold">Formato lata: 250 g</h6>
                     </div>
                 </div>
-    
+
             </div>
             <div class="col">
-            <div class="card card-medium">
-            <h5 class="card-header fw-bold">CAFFÈ MAURO DE LUXE</h5>
-            <img src="./assets/imgs/productos/cafe-molido/deluxe.svg" class="card-img-top" alt="...">
-            <div class="card-body">
-            <h6 class="fw-bold">Formato lata: 250 g</h6>
+                <div class="card card-medium mx-auto">
+                    <h5 class="card-header fw-bold">CAFFÈ MAURO DE LUXE</h5>
+                    <img src="./assets/imgs/productos/cafe-molido/deluxe.svg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h6 class="fw-bold">Formato lata: 250 g</h6>
+                    </div>
+                </div>
+
             </div>
-            </div>
-            
-            </div>
-            </div>
-            </div>
-            
-            <p class="fw-bold" data-bs-toggle="collapse" href="#collapseProducts" role="button" aria-expanded="false" aria-controls="collapseExample" id="collapseText">ver más <img src="./assets/imgs/flecha.svg" alt="icono"></p>
-            
-            <a href="#">Contáctanos</a>`
+        </div>
+    </div>
+    <p class="fw-bold d-lg-none" data-bs-toggle="collapse" href="#collapseProducts" role="button"
+        aria-expanded="false" aria-controls="collapseExample" id="collapseText">ver más <img
+            src="./assets/imgs/flecha.svg" alt="icono"></p>`
 }
 
 let suppliesTemplate = {
     url: 'url("./assets/imgs/header/insumos.png")',
+    lg: 'url("./assets/imgs/header/insumos-lg.png")',
     template: `<p class="fw-bold">Cápsulas compatibles Nesspreso</p>
     <hr>
     <div class="row row-cols-2">
@@ -302,6 +318,7 @@ let suppliesTemplate = {
 
 let accessoriesTemplate = {
     url: 'url("./assets/imgs/header/accesorios.png")',
+    lg: 'url("./assets/imgs/header/accesorios-lg.png")',
     template: `<p class="fw-bold">Accesorios</p>
     <hr>
 
@@ -383,11 +400,13 @@ let accessoriesTemplate = {
 // TODO crear template para la vista de maquinas
 let machinesTemplate = {
     url: 'url("./assets/imgs/header/maquinas.png")',
+    lg: 'url("./assets/imgs/header/maquinas-lg.png")',
     template: `<h1> Maquinas </h1>`
 }
 
 let merchandisingTemplate = {
     url: 'url("./assets/imgs/header/merchandising.png")',
+    lg: 'url("./assets/imgs/header/merchandising-lg.png")',
     template: `<p class="fw-bold">Merchandising</p>
     <hr>
 
@@ -473,7 +492,9 @@ menu.forEach((item, i) => {
 
         item.classList.add('fw-bold');
 
-        headerBackground.style.backgroundImage = templates[i].url;
+        console.log(screen.width)
+        
+        screen.width >= 992 ? headerBackground.style.backgroundImage = templates[i].lg : headerBackground.style.backgroundImage = templates[i].url;
         headerText.innerText = item.innerText;
         productsSection.innerHTML = templates[i].template;
     })
