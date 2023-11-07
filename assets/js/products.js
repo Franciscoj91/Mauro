@@ -184,81 +184,109 @@ let suppliesTemplate = {
     lg: 'url("./assets/imgs/header/insumos-lg.png")',
     template: `<p class="fw-bold">Cápsulas compatibles Nesspreso</p>
     <hr>
-    <div class="row row-cols-2">
-        <div class="col col-12">
-            <div class="card-sponsor">
+
+    <div class="row row-cols-lg-3 g-lg-5">
+        <div class="col col-12 col-lg-4">
+            <div class="card-sponsor mx-auto">
                 <div class="card-sponsor-img">
                     <img src="./assets/imgs/insumos/sponsor.svg" alt="logo sponsor">
                 </div>
             </div>
         </div>
-        <div class="col">
-            <div class="card card-small">
+        <div class="col col-lg-4">
+            <div class="card card-small mx-auto">
                 <h5 class="card-header fw-bold">CHOCOLATE EN POLVO</h5>
                 <img src="./assets/imgs/insumos/chocolate-1.svg" class="card-img-top" alt="...">
+
             </div>
         </div>
-        <div class="col">
-            <div class="card card-small">
+        <div class="col col-lg-4">
+            <div class="card card-small mx-auto">
                 <h5 class="card-header fw-bold">CHOCOLATE EN POLVO</h5>
-                <img src="./assets/imgs/insumos/chocolate-2.svg" class="card-img-top" alt="...">                      
+                <img src="./assets/imgs/insumos/chocolate-2.svg" class="card-img-top" alt="...">
             </div>
         </div>
-        <div class="col">
-            <div class="card card-small">
+        <div class="col col-lg-4 d-lg-none">
+            <div class="card card-small mx-auto">
                 <h5 class="card-header fw-bold">CHOCOLATE EN POLVO</h5>
-                <img src="./assets/imgs/insumos/chocolate-3.svg" class="card-img-top" alt="...">                        
+                <img src="./assets/imgs/insumos/chocolate-3.svg" class="card-img-top" alt="...">
+
             </div>
         </div>
-        <div class="col">
-            <div class="card card-small">
+        <div class="col col-lg-4 d-none d-lg-flex">
+            <div class="card card-small mx-auto">
+                <h5 class="card-header fw-bold">CHAI TEA</h5>
+                <img src="./assets/imgs/insumos/chocolate-3.svg" class="card-img-top" alt="...">
+
+            </div>
+        </div>
+        <div class="col col-lg-4 d-none d-lg-flex">
+            <div class="card card-small mx-auto">
+                <h5 class="card-header fw-bold">FRAPPÉ</h5>
+                <img src="./assets/imgs/productos/caffe-mauro/peru.svg" class="card-img-top" alt="...">
+
+            </div>
+        </div>
+        <div class="col col-lg-4">
+            <div class="card card-small mx-auto">
                 <h5 class="card-header fw-bold">OTRAS VARIEDADES</h5>
-                <ul> 
+                <ul>
                     <li>Frappés pistacho</li>
                     <li>Frappés toffee</li>
                     <li>Frappés caramelo</li>
                     <li>Frappés café</li>
                     <li>Frappés frozen mocka</li>
                 </ul>
-               
+
             </div>
         </div>
+
     </div>
+
     <p class="fw-bold">Salsas y syrups</p>
     <hr>
-    <p class="text-product mx-auto">Todo lo necesario para tu barra: Baristas
+
+    <p class="text-product mx-auto mx-lg-0 me-lg-auto">Todo lo necesario para tu barra: Baristas
         y bartenders.</p>
-    <div class="row row-cols-2">
-        <div class="col col-12">
-            <div class="card-sponsor">
+
+    <div class="row row-cols-lg-3 g-lg-5">
+        <div class="col col-12 col-lg-4">
+            <div class="card card-sponsor mx-auto">
                 <div class="card-sponsor-img">
                     <img src="./assets/imgs/insumos/sponsor-2.png" alt="logo sponsor">
                 </div>
             </div>
+
         </div>
-        <div class="col">
-            <div class="card card-small">
+        <div class="col col-lg-4">
+            <div class="card card-small mx-auto">
                 <h5 class="card-header fw-bold">SALSA DE CARAMELO</h5>
                 <img src="./assets/imgs/insumos/salsa-caramelo.svg" class="card-img-top" alt="...">
             </div>
         </div>
-        <div class="col">
-            <div class="card card-small">
+        <div class="col col-lg-4">
+            <div class="card card-small mx-auto">
                 <h5 class="card-header fw-bold">SALSA DE CHOCOLATE</h5>
                 <img src="./assets/imgs/insumos/salsa-chocolate.svg" class="card-img-top" alt="...">
-                
+
             </div>
         </div>
-        <div class="col">
-            <div class="card card-small">
+        <div class="col col-lg-4">
+            <div class="card card-small mx-auto">
                 <h5 class="card-header fw-bold">SYRUP DE AMARETTO</h5>
-                <img src="./assets/imgs/insumos/syrup-amaretto.svg" class="card-img-top" alt="...">                      
+                <img src="./assets/imgs/insumos/syrup-amaretto.svg" class="card-img-top" alt="...">
             </div>
         </div>
-        <div class="col">
-            <div class="card card-small">
+        <div class="col col-lg-4 d-none d-lg-flex">
+            <div class="card card-small mx-auto">
+                <h5 class="card-header fw-bold">SYRUP DE VAINILLA</h5>
+                <img src="./assets/imgs/insumos/syrup-amaretto.svg" class="card-img-top" alt="...">
+            </div>
+        </div>
+        <div class="col col-lg-4">
+            <div class="card card-small mx-auto">
                 <h5 class="card-header fw-bold">OTRAS VARIEDADES</h5>
-                <ul> 
+                <ul>
                     <li>Syrup de vainilla</li>
                     <li>Syrup de avellana</li>
                     <li>Syrup té chai</li>
@@ -266,41 +294,53 @@ let suppliesTemplate = {
                     <li>Syrup crema Irlandesa</li>
                     <li>Syrup canela</li>
                     <li>Syrup menta verde</li>
-                </ul>                      
+                </ul>
             </div>
         </div>
     </div>
+
     <p class="fw-bold">Té orgánico</p>
     <hr>
-    <p class="text-product mx-auto">Elige tu sabor preferido. Tambien tenemos bolsitas infusionadoras y teteras con filtros. Formato de 250 gramos.</p>
-    <div class="row row-cols-2">
-        <div class="col col-12">
-            <div class="card-sponsor">
+
+    <p class="text-product mx-auto mx-lg-0 me-lg-auto">Elige tu sabor preferido. Tambien tenemos bolsitas
+        infusionadoras y teteras con filtros. Formato de 250 gramos.</p>
+
+    <div class="row row-cols-lg-3 g-lg-5">
+        <div class="col col-12 col-lg-4">
+            <div class="card card-sponsor mx-auto">
                 <div class="card-sponsor-img">
                     <img src="./assets/imgs/insumos/sponsor-3.svg" alt="logo sponsor">
                 </div>
             </div>
+
         </div>
-        <div class="col">
-            <div class="card card-small">
+        <div class="col col-lg-4">
+            <div class="card card-small mx-auto">
                 <h5 class="card-header fw-bold">ENGLISH BREAKFAST</h5>
                 <img src="./assets/imgs/insumos/english-breakfast.svg" class="card-img-top" alt="...">
             </div>
         </div>
-        <div class="col">
-            <div class="card card-small">
+        <div class="col col-lg-4">
+            <div class="card card-small mx-auto">
                 <h5 class="card-header fw-bold">CHAI MALASA</h5>
-                <img src="./assets/imgs/insumos/chai-malasa.svg" class="card-img-top" alt="...">                      
+                <img src="./assets/imgs/insumos/chai-malasa.svg" class="card-img-top" alt="...">
+
             </div>
         </div>
-        <div class="col">
-            <div class="card card-small">
+        <div class="col col-lg-4">
+            <div class="card card-small mx-auto">
                 <h5 class="card-header fw-bold">EARL GREY</h5>
-                <img src="./assets/imgs/insumos/earl-grey.svg" class="card-img-top" alt="...">                        
+                <img src="./assets/imgs/insumos/earl-grey.svg" class="card-img-top" alt="...">
             </div>
         </div>
-        <div class="col">
-            <div class="card card-small">
+        <div class="col col-lg-4 d-none d-lg-flex">
+            <div class="card card-small mx-auto">
+                <h5 class="card-header fw-bold">ROOIBOS</h5>
+                <img src="./assets/imgs/insumos/earl-grey.svg" class="card-img-top" alt="...">
+            </div>
+        </div>
+        <div class="col col-lg-4">
+            <div class="card card-small mx-auto">
                 <h5 class="card-header fw-bold">OTRAS VARIEDADES</h5>
                 <ul>
                     <li>Gunpowder</li>
@@ -309,11 +349,10 @@ let suppliesTemplate = {
                     <li>Berries silvestres</li>
                     <li>Pu-erh</li>
                     <li>Infusion manzanilla</li>
-                </ul>          
+                </ul>
             </div>
         </div>
-    </div>
-    <a href="#">Contáctanos</a>`
+    </div>`
 }
 
 let accessoriesTemplate = {
