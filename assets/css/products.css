@@ -341,4 +341,35 @@
         font-size: 16px;
         width: 186px;
     }
+
+    .card-sponsor {
+        width: 250px;
+        height: 250px;
+    }
+
+    .card-sponsor-img {
+        width: 185px;
+        height: 185px;
+    }
+
+    .card.card-small {
+        width: 250px;
+        height: 250px;
+    }
+
+    .card.card-small .card-header{
+        font-size: 18px;
+    }
+
+    .card.card-small .card-img-top{
+        width: 200px;
+        height: 166.75px;
+    }
+
+    .card.card-small ul {
+        width: 196.257px;
+        height: 161.563px;
+        font-size: 13px;
+        padding-left: 30px;
+    }
 }
