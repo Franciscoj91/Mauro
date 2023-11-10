@@ -421,68 +421,59 @@ let merchandisingTemplate = {
     template: `<p class="fw-bold">Merchandising</p>
     <hr>
 
-    <p class="text-product mx-auto">Todo lo que tú barra necesita, esta aquí.</p>
+    <p class="text-product mx-auto mx-lg-0">Todo lo que tú barra necesita, esta aquí.</p>
 
-    <div class="row">
-        <div class="col">
-            <div class="card card-medium">
-                    <h5 class="card-header fw-bold">TAZA ESPRESSO LOGO CAFFÈ MAURO</h5>
-                    <img src="./assets/imgs/merchandising/taza-expresso.svg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                            <h6 class="fw-bold">Unidad plato/taza</h6>
-                    </div>
-            </div>
+    <div class="products-medium">
 
+      <div class="card card-medium">
+        <h5 class="card-header fw-bold">TAZA ESPRESSO LOGO CAFFÈ MAURO</h5>
+        <img src="./assets/imgs/merchandising/taza-expresso.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="fw-bold">Unidad plato/taza</h6>
         </div>
-        <div class="col">
-            <div class="card card-medium">
-                    <h5 class="card-header fw-bold">TAZA CAPPUCCINO
-                        LOGO CAFFÉ MAURO</h5>
-                    <img src="./assets/imgs/merchandising/taza-capuccino.svg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                            <h6 class="fw-bold">Unidad plato/taza</h6>
-                    </div>
-            </div>
+      </div>
 
+
+      <div class="card card-medium">
+        <h5 class="card-header fw-bold">TAZA CAPPUCCINO
+          LOGO CAFFÉ MAURO</h5>
+        <img src="./assets/imgs/merchandising/taza-capuccino.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="fw-bold">Unidad plato/taza</h6>
         </div>
-        <div class="col">
-            <div class="card card-medium">
-                    <h5 class="card-header fw-bold">LECHERO PEQUEÑO
-                        LOGO CAFFÈ MAURO</h5>
-                    <img src="./assets/imgs/merchandising/lechero.svg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                            <h6 class="fw-bold">Unidad porcelana</h6>
-                    </div>
-            </div>
+      </div>
 
+      <div class="card card-medium">
+        <h5 class="card-header fw-bold">LECHERO PEQUEÑO
+          LOGO CAFFÈ MAURO</h5>
+        <img src="./assets/imgs/merchandising/lechero.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="fw-bold">Unidad porcelana</h6>
         </div>
-        <div class="col">
-            <div class="card card-medium">
-                    <h5 class="card-header fw-bold">PLACA VINILO
-                        PUBLICIDAD CAFFÈ MAURO</h5>
-                    <img src="./assets/imgs/merchandising/placa.svg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                            <h6 class="fw-bold">Unidad acrílica</h6>
-                    </div>
-            </div>
+      </div>
 
+      <div class="card card-medium">
+        <h5 class="card-header fw-bold">PLACA VINILO
+          PUBLICIDAD CAFFÈ MAURO</h5>
+        <img src="./assets/imgs/merchandising/placa.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="fw-bold">Unidad acrílica</h6>
         </div>
-        <div class="col">
-            <div class="card card-medium">
-                    <h5 class="card-header fw-bold">MÁS MERCHANDISING</h5>
-                    <ul> 
-                        <li>Taza Latte logo Caffè Mauro, unidad plato/taza</li>
-                        <li>Vaso vidrio logo Caffè Mauro, unidad</li>
-                        <li>Vaso Cafeino logo Caffè Mauro, unidad vidrio</li>
-                        <li>Delantal barista logo Caffè Mauro, unidad</li>
-                        
-                </ul>
-            </div>
+      </div>
 
-        </div>
-    </div>
+      <div class="card card-medium">
+        <h5 class="card-header fw-bold">MÁS MERCHANDISING</h5>
+        <ul>
+          <li>Taza Latte logo Caffè Mauro, unidad plato/taza</li>
+          <li>Vaso vidrio logo Caffè Mauro, unidad</li>
+          <li>Vaso Cafeino logo Caffè Mauro, unidad vidrio</li>
+          <li>Delantal barista logo Caffè Mauro, unidad</li>
 
-    <a href="#">Contáctanos</a>`
+        </ul>
+      </div>
+
+
+    </div>`
 }
 
 let templates = [productsTemplate, suppliesTemplate, accessoriesTemplate, machinesTemplate, merchandisingTemplate];
