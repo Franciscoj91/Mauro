@@ -13,7 +13,7 @@
 
 <body>
     <nav class="navbar navbar-expand-lg container-fluid fixed-top">
-        <div class="container">
+        <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="./assets/imgs/Logotipo_1.1.svg" alt="logo"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -24,17 +24,20 @@
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
                 <div class="offcanvas-body">
-                    <ul class="navbar-nav mx-auto mx-lg-none mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Nuestra historia</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Socios comerciales</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="./insumos.html">Insumos y maquinarias</a>
-                        </li>
-                    </ul>
+                    <div class="offcanvas-menu">
+                        <p class="fw-bold d-lg-none">Menú</p>
+                        <ul class="navbar-nav mx-auto mx-lg-none mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Nuestra historia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Socios comerciales</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./insumos.html">Insumos y maquinarias</a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>
@@ -43,7 +46,7 @@
 
         <div class="header-info">
             <p class="header-text">
-                Durante 70 años hemos puesto a nuestros clientes en el centro de nuestro trabajo
+                Durante 70 años hemos puesto a nuestros consumidores en el centro de nuestro trabajo
             </p>
 
             <button class="header-btn">Nuestra historia</button>
@@ -51,7 +54,7 @@
         </div>
     </header>
 
-    <a href="" class="whatsapp"><img src="./assets/imgs/whatsapp.svg" alt="whatsapp"></a>
+    <a href="https://wa.me/56944107769" class="whatsapp"><img src="./assets/imgs/whatsapp.svg" alt="whatsapp"></a>
 
     <section class="section-info">
         <p>
@@ -65,7 +68,7 @@
             <img src="./assets/imgs/first-btn.svg" alt="icono de un boton">
             <p class="fw-bold">
 
-                Socios comerciales
+                Socios comerciales <span class="d-none d-lg-inline"><img class="arrow" src="./assets/imgs/flecha-blanca.svg" alt=""></span>
             </p>
 
         </button>
@@ -74,7 +77,7 @@
             <img src="./assets/imgs/second-btn.svg" alt="icono de un boton">
             <p class="fw-bold">
 
-                Insumos y maquinarias
+                Insumos y maquinarias <span class="d-none d-lg-inline"><img class="arrow second" src="./assets/imgs/flecha-blanca.svg" alt=""></span>
             </p>
 
         </button>
@@ -82,46 +85,67 @@
 
     <section class="section-services">
         
-        <p>Un tueste lento, realizado con paciencia. Respetando cada origen y sus excelentes características</p>
+        <p><span >Un tueste lento, realizado con paciencia.</span> Respetando cada origen y sus excelentes características</p>
 
         <button>Servicios</button>
     </section>
 
-    <footer>
-        <img src="./assets/imgs/Logotipo_1.2.svg" alt="logotipo alternativo" class="logo-footer">
-        <div class="footer-info">
-            <h3 class="text-bold">SOMOS SOCIOS COMERCIALES, NO PROVEEDORES</h3>
+    <footer class="container-fluid text-center">
+        <div class="row row-cols-1 row-cols-lg-4">
+            <div class="col col-lg-2">
+                <img src="./assets/imgs/Logotipo_1.2.svg" alt="logotipo alternativo" class="logo-footer mx-auto d-block">
+            </div>
+            <div class="col col-lg-4">
+                <div class="footer-info">
+                    <h3 class="fw-bold">SOMOS SOCIOS COMERCIALES, NO PROVEEDORES</h3>
+        
+                    <p>Andonie y Gidi posee la representación exclusiva en Chile de la marca Caffè Mauro, nuestra presencia data
+                        del año 2011. <span class="d-none d-lg-inline">Contamos con bodegas que poseen las condiciones ambientales óptimas para una buena mantención del café, certificadas por el Seremi de Salud Metropolitano.</span></p>
+                </div>
+            </div>
 
-            <p>Andonie y Gidi posee la representación exclusiva en Chile de la marca Caffè Mauro, nuestra presencia data
-                del año 2011. <span class="d-none d-lg-inline">Contamos con bodegas que poseen las condiciones ambientales óptimas para una buena mantención del café, certificadas por el Seremi de Salud Metropolitano.</span></p>
-        </div>
-        <div class="footer-menu d-none d-lg-block">
-            <h3 class="text-bold">CAFFÈ MAURO</h3>
-            <a href="" class="d-block">Nuestra historia</a>
-            <a href="" class="d-block">Socios comerciales</a>
-            <a href="" class="d-block">Insumos y maquinarias</a>
-        </div>
-        <div class="footer-contact">
-            <h3 class="text-bold">CONTACTO</h3>
-            <p class="address"><span class="d-none d-lg-block text-bold">Dirección</span>
-                <a href="https://maps.app.goo.gl/w4rVtRQpnwRw2FuGA" target="_blank">Alfredo Barros Errázuriz 1954 Of. 1108,
-                Providencia Santiago, Chile</a></p>
-            <p><strong>Teléfono:</strong> <a href="tel:+56223416590">(+56) 2 2341 6590</a></p>
-            <p><strong>Email:</strong> <a href="mailto:comercial@caffemauro.cl">comercial@caffemauro.cl</a></p>
-            <a href="https://www.instagram.com/caffemaurochile/" target="_blank"><img src="./assets/imgs/instagram.svg"
-                alt="instagram"></a>
-        </div>
+            <div class="col col-lg-3">
+                <div class="footer-menu d-none d-lg-flex flex-column align-content-lg-start flex-wrap text-lg-start">
+                    <h3 class="fw-bold">CAFFÈ MAURO</h3>
+                    <a href="" class="d-block">Nuestra historia</a>
+                    <a href="" class="d-block">Socios comerciales</a>
+                    <a href="" class="d-block">Insumos y maquinarias</a>
+                </div>
+            </div>
 
-        <div class="copyright">
-            <hr>
-            <p>&copy Caffè Mauro tvodos los derechos reservados. Diseñado por Brandmut.</p>
+            <div class="col col-lg-3">
+                <div class="footer-contact">
+                    <h3 class="fw-bold">CONTACTO</h3>
+                    <p class="address"><span class="d-none d-lg-block fw-bold">Dirección:</span>
+                        <a href="https://maps.app.goo.gl/w4rVtRQpnwRw2FuGA" target="_blank">Alfredo Barros Errázuriz 1954 Of. 1108,
+                        Providencia Santiago, Chile</a></p>
+                    <p><strong>Teléfono:</strong> <a href="tel:+56223416590">(+56) 2 2341 6590</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:comercial@caffemauro.cl">comercial@caffemauro.cl</a></p>
+                    <a class="text-lg-start" href="https://www.instagram.com/caffemaurochile/" target="_blank"><img src="./assets/imgs/instagram.svg"
+                        alt="instagram"></a>
+                </div>
+
+            </div>
+            <div class="col col-lg-12">
+                <div class="copyright">
+                    <hr class="mx-auto">
+                    <p>&copy Caffè Mauro tvodos los derechos reservados. Diseñado por Brandmut.</p>
+                </div>
+            </div>
         </div>
+        
+        
+        
+        
+
+        
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous">
         </script>
     <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/nav.js"></script>
 </body>
 
 </html>
