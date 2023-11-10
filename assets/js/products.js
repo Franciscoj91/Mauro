@@ -188,61 +188,59 @@ let suppliesTemplate = {
     template: `<p class="fw-bold">Cápsulas compatibles Nesspreso</p>
     <hr>
 
-    <div class="row row-cols-lg-3 g-lg-5">
-        <div class="col col-12 col-lg-4">
-            <div class="card-sponsor mx-auto">
-                <div class="card-sponsor-img">
-                    <img src="./assets/imgs/insumos/sponsor.svg" alt="logo sponsor">
-                </div>
-            </div>
+    <div class="products-small">
+      <div class="card-sponsor">
+        <div class="card-sponsor-img">
+          <img src="./assets/imgs/insumos/sponsor.svg" alt="logo sponsor">
         </div>
-        <div class="col col-lg-4">
-            <div class="card card-small mx-auto">
-                <h5 class="card-header fw-bold">CHOCOLATE EN POLVO</h5>
-                <img src="./assets/imgs/insumos/chocolate-1.svg" class="card-img-top" alt="...">
+      </div>
 
-            </div>
-        </div>
-        <div class="col col-lg-4">
-            <div class="card card-small mx-auto">
-                <h5 class="card-header fw-bold">CHOCOLATE EN POLVO</h5>
-                <img src="./assets/imgs/insumos/chocolate-2.svg" class="card-img-top" alt="...">
-            </div>
-        </div>
-        <div class="col col-lg-4 d-lg-none">
-            <div class="card card-small mx-auto">
-                <h5 class="card-header fw-bold">CHOCOLATE EN POLVO</h5>
-                <img src="./assets/imgs/insumos/chocolate-3.svg" class="card-img-top" alt="...">
 
-            </div>
-        </div>
-        <div class="col col-lg-4 d-none d-lg-flex">
-            <div class="card card-small mx-auto">
-                <h5 class="card-header fw-bold">CHAI TEA</h5>
-                <img src="./assets/imgs/insumos/chocolate-3.svg" class="card-img-top" alt="...">
+      <div class="card card-small ">
+        <h5 class="card-header fw-bold">CHOCOLATE EN POLVO</h5>
+        <img src="./assets/imgs/insumos/chocolate-1.svg" class="card-img-top" alt="...">
 
-            </div>
-        </div>
-        <div class="col col-lg-4 d-none d-lg-flex">
-            <div class="card card-small mx-auto">
-                <h5 class="card-header fw-bold">FRAPPÉ</h5>
-                <img src="./assets/imgs/productos/caffe-mauro/peru.svg" class="card-img-top" alt="...">
+      </div>
 
-            </div>
-        </div>
-        <div class="col col-lg-4">
-            <div class="card card-small mx-auto">
-                <h5 class="card-header fw-bold">OTRAS VARIEDADES</h5>
-                <ul>
-                    <li>Frappés pistacho</li>
-                    <li>Frappés toffee</li>
-                    <li>Frappés caramelo</li>
-                    <li>Frappés café</li>
-                    <li>Frappés frozen mocka</li>
-                </ul>
+      <div class="card card-small ">
+        <h5 class="card-header fw-bold">CHOCOLATE EN POLVO</h5>
+        <img src="./assets/imgs/insumos/chocolate-2.svg" class="card-img-top" alt="...">
+      </div>
 
-            </div>
-        </div>
+
+      <div class="card card-small d-lg-none">
+        <h5 class="card-header fw-bold">CHOCOLATE EN POLVO</h5>
+        <img src="./assets/imgs/insumos/chocolate-3.svg" class="card-img-top" alt="...">
+
+      </div>
+
+
+      <div class="card card-small d-none d-lg-block">
+        <h5 class="card-header fw-bold">CHAI TEA</h5>
+        <img src="./assets/imgs/insumos/chocolate-3.svg" class="card-img-top" alt="...">
+
+      </div>
+
+
+      <div class="card card-small d-none d-lg-block">
+        <h5 class="card-header fw-bold">FRAPPÉ</h5>
+        <img src="./assets/imgs/productos/caffe-mauro/peru.svg" class="card-img-top" alt="...">
+
+      </div>
+
+
+      <div class="card card-small mx-auto">
+        <h5 class="card-header fw-bold">OTRAS VARIEDADES</h5>
+        <ul>
+          <li>Frappés pistacho</li>
+          <li>Frappés toffee</li>
+          <li>Frappés caramelo</li>
+          <li>Frappés café</li>
+          <li>Frappés frozen mocka</li>
+        </ul>
+
+      </div>
+
 
     </div>
 
@@ -250,111 +248,90 @@ let suppliesTemplate = {
     <hr>
 
     <p class="text-product mx-auto mx-lg-0 me-lg-auto">Todo lo necesario para tu barra: Baristas
-        y bartenders.</p>
+      y bartenders.</p>
 
-    <div class="row row-cols-lg-3 g-lg-5">
-        <div class="col col-12 col-lg-4">
-            <div class="card card-sponsor mx-auto">
-                <div class="card-sponsor-img">
-                    <img src="./assets/imgs/insumos/sponsor-2.png" alt="logo sponsor">
-                </div>
-            </div>
+    <div class="products-small">
 
+      <div class="card card-sponsor">
+        <div class="card-sponsor-img">
+          <img src="./assets/imgs/insumos/sponsor-2.png" alt="logo sponsor">
         </div>
-        <div class="col col-lg-4">
-            <div class="card card-small mx-auto">
-                <h5 class="card-header fw-bold">SALSA DE CARAMELO</h5>
-                <img src="./assets/imgs/insumos/salsa-caramelo.svg" class="card-img-top" alt="...">
-            </div>
-        </div>
-        <div class="col col-lg-4">
-            <div class="card card-small mx-auto">
-                <h5 class="card-header fw-bold">SALSA DE CHOCOLATE</h5>
-                <img src="./assets/imgs/insumos/salsa-chocolate.svg" class="card-img-top" alt="...">
+      </div>
 
-            </div>
-        </div>
-        <div class="col col-lg-4">
-            <div class="card card-small mx-auto">
-                <h5 class="card-header fw-bold">SYRUP DE AMARETTO</h5>
-                <img src="./assets/imgs/insumos/syrup-amaretto.svg" class="card-img-top" alt="...">
-            </div>
-        </div>
-        <div class="col col-lg-4 d-none d-lg-flex">
-            <div class="card card-small mx-auto">
-                <h5 class="card-header fw-bold">SYRUP DE VAINILLA</h5>
-                <img src="./assets/imgs/insumos/syrup-amaretto.svg" class="card-img-top" alt="...">
-            </div>
-        </div>
-        <div class="col col-lg-4">
-            <div class="card card-small mx-auto">
-                <h5 class="card-header fw-bold">OTRAS VARIEDADES</h5>
-                <ul>
-                    <li>Syrup de vainilla</li>
-                    <li>Syrup de avellana</li>
-                    <li>Syrup té chai</li>
-                    <li>Syrup de coco</li>
-                    <li>Syrup crema Irlandesa</li>
-                    <li>Syrup canela</li>
-                    <li>Syrup menta verde</li>
-                </ul>
-            </div>
-        </div>
+
+
+      <div class="card card-small">
+        <h5 class="card-header fw-bold">SALSA DE CARAMELO</h5>
+        <img src="./assets/imgs/insumos/salsa-caramelo.svg" class="card-img-top" alt="...">
+      </div>
+
+
+      <div class="card card-small">
+        <h5 class="card-header fw-bold">SALSA DE CHOCOLATE</h5>
+        <img src="./assets/imgs/insumos/salsa-chocolate.svg" class="card-img-top" alt="...">
+
+      </div>
+      <div class="card card-small">
+        <h5 class="card-header fw-bold">SYRUP DE AMARETTO</h5>
+        <img src="./assets/imgs/insumos/syrup-amaretto.svg" class="card-img-top" alt="...">
+      </div>
+      <div class="card card-small d-none d-lg-block">
+        <h5 class="card-header fw-bold">SYRUP DE VAINILLA</h5>
+        <img src="./assets/imgs/insumos/syrup-amaretto.svg" class="card-img-top" alt="...">
+      </div>
+      <div class="card card-small">
+        <h5 class="card-header fw-bold">OTRAS VARIEDADES</h5>
+        <ul>
+          <li>Syrup de vainilla</li>
+          <li>Syrup de avellana</li>
+          <li>Syrup té chai</li>
+          <li>Syrup de coco</li>
+          <li>Syrup crema Irlandesa</li>
+          <li>Syrup canela</li>
+          <li>Syrup menta verde</li>
+        </ul>
+      </div>
     </div>
 
     <p class="fw-bold">Té orgánico</p>
     <hr>
 
     <p class="text-product mx-auto mx-lg-0 me-lg-auto">Elige tu sabor preferido. Tambien tenemos bolsitas
-        infusionadoras y teteras con filtros. Formato de 250 gramos.</p>
+      infusionadoras y teteras con filtros. Formato de 250 gramos.</p>
 
-    <div class="row row-cols-lg-3 g-lg-5">
-        <div class="col col-12 col-lg-4">
-            <div class="card card-sponsor mx-auto">
-                <div class="card-sponsor-img">
-                    <img src="./assets/imgs/insumos/sponsor-3.svg" alt="logo sponsor">
-                </div>
-            </div>
-
+    <div class="products-small">
+      <div class="card card-sponsor">
+        <div class="card-sponsor-img">
+          <img src="./assets/imgs/insumos/sponsor-3.svg" alt="logo sponsor">
         </div>
-        <div class="col col-lg-4">
-            <div class="card card-small mx-auto">
-                <h5 class="card-header fw-bold">ENGLISH BREAKFAST</h5>
-                <img src="./assets/imgs/insumos/english-breakfast.svg" class="card-img-top" alt="...">
-            </div>
-        </div>
-        <div class="col col-lg-4">
-            <div class="card card-small mx-auto">
-                <h5 class="card-header fw-bold">CHAI MALASA</h5>
-                <img src="./assets/imgs/insumos/chai-malasa.svg" class="card-img-top" alt="...">
-
-            </div>
-        </div>
-        <div class="col col-lg-4">
-            <div class="card card-small mx-auto">
-                <h5 class="card-header fw-bold">EARL GREY</h5>
-                <img src="./assets/imgs/insumos/earl-grey.svg" class="card-img-top" alt="...">
-            </div>
-        </div>
-        <div class="col col-lg-4 d-none d-lg-flex">
-            <div class="card card-small mx-auto">
-                <h5 class="card-header fw-bold">ROOIBOS</h5>
-                <img src="./assets/imgs/insumos/earl-grey.svg" class="card-img-top" alt="...">
-            </div>
-        </div>
-        <div class="col col-lg-4">
-            <div class="card card-small mx-auto">
-                <h5 class="card-header fw-bold">OTRAS VARIEDADES</h5>
-                <ul>
-                    <li>Gunpowder</li>
-                    <li>Te verde maracuya y mango</li>
-                    <li>Matcha organico</li>
-                    <li>Berries silvestres</li>
-                    <li>Pu-erh</li>
-                    <li>Infusion manzanilla</li>
-                </ul>
-            </div>
-        </div>
+      </div>
+      <div class="card card-small">
+        <h5 class="card-header fw-bold">ENGLISH BREAKFAST</h5>
+        <img src="./assets/imgs/insumos/english-breakfast.svg" class="card-img-top" alt="...">
+      </div>
+      <div class="card card-small">
+        <h5 class="card-header fw-bold">CHAI MALASA</h5>
+        <img src="./assets/imgs/insumos/chai-malasa.svg" class="card-img-top" alt="...">
+      </div>
+      <div class="card card-small">
+        <h5 class="card-header fw-bold">EARL GREY</h5>
+        <img src="./assets/imgs/insumos/earl-grey.svg" class="card-img-top" alt="...">
+      </div>
+      <div class="card card-small d-none d-lg-block">
+        <h5 class="card-header fw-bold">ROOIBOS</h5>
+        <img src="./assets/imgs/insumos/earl-grey.svg" class="card-img-top" alt="...">
+      </div>
+      <div class="card card-small">
+        <h5 class="card-header fw-bold">OTRAS VARIEDADES</h5>
+        <ul>
+          <li>Gunpowder</li>
+          <li>Te verde maracuya y mango</li>
+          <li>Matcha organico</li>
+          <li>Berries silvestres</li>
+          <li>Pu-erh</li>
+          <li>Infusion manzanilla</li>
+        </ul>
+      </div>
     </div>`
 }
 
