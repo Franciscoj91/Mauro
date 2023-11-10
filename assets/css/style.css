@@ -28,7 +28,7 @@ body {
     width: 38.88px;
     height: 38.88px;
     padding: 0;
-    margin-right: 18px;
+    margin-right: 8px;
     border: 0;
 }
 
@@ -44,8 +44,13 @@ body {
 }
 
 .nav-link {
-    color: var(--white-color);
     font-size: 0.938rem;
+    color: inherit;
+}
+
+.nav-link:hover {
+    color: inherit;
+    opacity: 0.65;
 }
 
 .navbar-nav {
@@ -55,7 +60,7 @@ body {
 .navbar-brand {
     padding: 0;
     width: 74px;
-    margin-left: 18px;
+    margin-left: 8px;
 
 }
 
@@ -83,6 +88,20 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.offcanvas-menu {
+    color: #fff;
+}
+
+.offcanvas-menu p {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 8px;
+    margin-bottom: 50px;
+}
+
+.offcanvas-menu li:nth-child(even) {
+    margin: 12px 0;
 }
 
 /* header */
@@ -115,7 +134,7 @@ body {
     margin: 0 auto;
     text-align: center;
     font-size: 15px;
-    line-height: 145%;
+    line-height: 160%;
 }
 
 .header-btn {
@@ -231,9 +250,9 @@ body {
 
 footer {
     min-height: 478px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    /* display: flex; */
+    /* flex-direction: column;
+    align-items: center; */
 
     font-size: 12px;
 }
@@ -259,11 +278,6 @@ footer a {
     text-decoration: none;
 }
 
-footer div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
 
 .footer-contact {
     margin: 30px auto 20px;
@@ -271,6 +285,10 @@ footer div {
 
 .footer-contact p {
     margin-bottom: 14px;
+}
+
+.footer-contact a{
+    text-decoration: underline;
 }
 
 
@@ -300,6 +318,7 @@ footer div {
 
 @media only screen and (min-width: 992px) {
 
+    
     .text-lg-bold {
         font-weight: 700;
     }
@@ -309,13 +328,34 @@ footer div {
         margin-left: 0;
     }
 
+    .navbar>.container-fluid {
+        justify-content: center;
+        position:relative;
+        padding-top: 25px;
+        padding-bottom: 23px;
+    }
+
+    .navbar-brand {
+        position: absolute;
+        left: 57px;
+        top: 0;
+    }
+
 
 
     .navbar-brand img {
         width: 139.45px;
     }
 
-    header {
+    .navbar-nav .nav-item:nth-child(even){
+        margin: 0 42px;
+    }
+
+    .offcanvas-menu li:nth-child(even) {
+        margin: 0;
+    }
+
+    .home-header {
         background-image: url('../imgs/header-lg.png');
         min-height: 790px;
         gap: 50px;
@@ -327,15 +367,15 @@ footer div {
     }
 
     .header-info {
-        margin-bottom: 181px;
+        margin-bottom: 211px;
         gap: 40px;
     }
 
     .header-info p {
         margin: 0 auto;
-        width: 35ch;
-        font-size: 26px;
-        line-height: 39px;
+        width: 30ch;
+        font-size: 29px;
+        line-height: 46.4px;
     }
 
     .header-btn {
@@ -346,14 +386,15 @@ footer div {
     }
 
     .section-info {
-        min-height: 281px;
-        font-size: 32px;
+        min-height: 210px;
+        font-size: 30px;
     }
 
     .section-info p {
         margin: 0 auto;
         width: 25ch;
-        line-height: 52.8px;
+        line-height: 48px;
+        padding-bottom: 2px;
     }
 
     .section-btns {
@@ -372,12 +413,20 @@ footer div {
 
     .cta-btn img {
         width: 242px;
+        height: 242px;
         margin: 43px 43px 0;
     }
 
     .cta-btn p {
         font-size: 20px;
         margin: 28.61px auto 38px;
+        width: 25ch;
+    }
+
+    .cta-btn .arrow {
+        width: 19.75px;
+        height: 14.15px;
+        margin: 0;
     }
 
     .principal {
@@ -385,13 +434,14 @@ footer div {
     }
 
     .section-services {
-        min-height: 435px;
+        min-height: 343px;
     }
 
     .section-services p {
-        font-size: 30px;
-        margin: 35px auto 41px;
+        font-size: 29px;
+        margin: 55px auto 41px;
         width: 40ch;
+        line-height: 46.4px;
     }
 
     .icon-services {
@@ -408,6 +458,11 @@ footer div {
     .section-services button {
         font-size: 16px;
         padding: 12px 58px;
+        
+    }
+
+    .section-services span {
+        font-weight: 700;
     }
 
     footer {
@@ -415,6 +470,7 @@ footer div {
         align-items: flex-start;
         flex-wrap: wrap;
         font-size: 14px;
+        max-height: 485px;
     }
 
     .logo-footer {
@@ -424,13 +480,12 @@ footer div {
 
     .footer-info {
         margin-top: 96px;
-        margin-left: 45.55px;
         text-align: start;
     }
 
     footer h3 {
         font-size: 16px;
-        margin: 0 auto 17px;
+        margin: 0 0 17px;
         width: 37ch;
     }
 
@@ -442,15 +497,14 @@ footer div {
 
     .footer-contact {
         margin-top: 96px;
-        margin-left: 111px;
+        margin-left: 0;
         margin-right: 0;
         align-items: flex-start;
     }
 
     .footer-contact h3 {
         text-align: start;
-        width: 30ch;
-        margin-bottom: 9px;
+        margin-bottom: 17px;
     }
 
 
@@ -466,13 +520,14 @@ footer div {
     }
 
     .footer-contact a {
-        display: inline-block;
+        display: block;
         margin-right: auto;
+        
     }
 
     .footer-menu {
         margin-top: 96px;
-        margin-left: 118px;
+        margin-left: 60px;
         width: 20ch;
     }
 
@@ -481,7 +536,7 @@ footer div {
     }
 
     .copyright {
-        flex-basis: 100%;
+        margin-top: 68px;
     }
 
     .copyright hr {
@@ -495,14 +550,14 @@ footer div {
 
     .whatsapp {
         bottom: 47.19px;
-        left: 72px;
-        width: 75.5px;
-        height: 75.5px;
+        right: 36px;
+        width: 70px;
+        height: 70px;
     }
 
     .whatsapp img {
-        width: 75.5px;
-        height: 75.5px;
+        width: 70px;
+        height: 70px;
     }
 
 }
