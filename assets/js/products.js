@@ -557,69 +557,7 @@ let machinesTemplate = {
     </div>
     <p class="fw-bold d-lg-none" data-bs-toggle="collapse" href="#collapseProducts" role="button"
       aria-expanded="false" aria-controls="collapseExample" id="collapseText">ver más <img
-        src="./assets/imgs/flecha.svg" alt="icono"></p>
-
-    <section />
-
-
-
-
-
-</div>
-
-<a href="#" id="contact-btn">Contáctanos</a>
-
-</main>
-
-
-<footer class="container-fluid text-center">
-<div class="row row-cols-1 row-cols-lg-4">
-  <div class="col col-lg-2">
-    <img src="./assets/imgs/Logotipo_1.2.svg" alt="logotipo alternativo" class="logo-footer mx-auto d-block">
-  </div>
-  <div class="col col-lg-4">
-    <div class="footer-info">
-      <h3 class="fw-bold">SOMOS SOCIOS COMERCIALES, NO PROVEEDORES</h3>
-
-      <p>Andonie y Gidi posee la representación exclusiva en Chile de la marca Caffè Mauro, nuestra
-        presencia data
-        del año 2011. <span class="d-none d-lg-inline">Contamos con bodegas que poseen las condiciones
-          ambientales óptimas para una buena mantención del café, certificadas por el Seremi de Salud
-          Metropolitano.</span></p>
-    </div>
-  </div>
-
-  <div class="col col-lg-3">
-    <div class="footer-menu d-none d-lg-flex flex-column align-content-lg-start flex-wrap text-lg-start">
-      <h3 class="fw-bold">CAFFÈ MAURO</h3>
-      <a href="" class="d-block">Nuestra historia</a>
-      <a href="" class="d-block">Socios comerciales</a>
-      <a href="" class="d-block">Insumos y maquinarias</a>
-    </div>
-  </div>
-
-  <div class="col col-lg-3">
-    <div class="footer-contact">
-      <h3 class="fw-bold">CONTACTO</h3>
-      <p class="address"><span class="d-none d-lg-block text-bold">Dirección</span>
-        <a href="https://maps.app.goo.gl/w4rVtRQpnwRw2FuGA" target="_blank">Alfredo Barros Errázuriz
-          1954 Of. 1108,
-          Providencia Santiago, Chile</a>
-      </p>
-      <p><strong>Teléfono:</strong> <a href="tel:+56223416590">(+56) 2 2341 6590</a></p>
-      <p><strong>Email:</strong> <a href="mailto:comercial@caffemauro.cl">comercial@caffemauro.cl</a></p>
-      <a class="text-lg-start" href="https://www.instagram.com/caffemaurochile/" target="_blank"><img
-          src="./assets/imgs/instagram.svg" alt="instagram"></a>
-    </div>
-
-  </div>
-  <div class="col col-lg-12">
-    <div class="copyright">
-      <hr>
-      <p>&copy Caffè Mauro tvodos los derechos reservados. Diseñado por Brandmut.</p>
-    </div>
-  </div>
-</div>`
+        src="./assets/imgs/flecha.svg" alt="icono"></p>`
 }
 
 let merchandisingTemplate = {
