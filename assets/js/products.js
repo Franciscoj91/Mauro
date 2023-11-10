@@ -341,79 +341,71 @@ let accessoriesTemplate = {
     template: `<p class="fw-bold">Accesorios</p>
     <hr>
 
-    <p class="text-product mx-auto">Todo lo que tú barra necesita, esta aquí.</p>
+    <p class="text-product mx-auto mx-lg-0">Todo lo que tú barra necesita, esta aquí.</p>
 
-    <div class="row">
-            <div class="col">
-                    <div class="card card-medium">
-                            <h5 class="card-header fw-bold">ATRIL METÁLICO SYRUP</h5>
-                            <img src="./assets/imgs/accesorios/atril-metalico.svg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                    <h6 class="fw-bold">Capacidad: 4-6 botellas</h6>
-                            </div>
-                    </div>
+    <div class="products-medium">
 
-            </div>
-            <div class="col">
-                    <div class="card card-medium">
-                            <h5 class="card-header fw-bold">TAMPER PROFESIONAL MADERA</h5>
-                            <img src="./assets/imgs/accesorios/tamper.svg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                    <h6 class="fw-bold">Unidad</h6>
-                            </div>
-                    </div>
-
-            </div>
-            <div class="col">
-                    <div class="card card-medium">
-                            <h5 class="card-header fw-bold">JARRA LATTIERA 50 ML
-                                    LOGO CAFFÉ MAURO</h5>
-                            <img src="./assets/imgs/accesorios/jarra.svg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                    <h6 class="fw-bold">Unidad acero inoxidable</h6>
-                            </div>
-                    </div>
-
-            </div>
-            <div class="col">
-                    <div class="card card-medium">
-                            <h5 class="card-header fw-bold">CAFIZA, DETERGENTE
-                                    LIMPIADOR CAFETERAS</h5>
-                            <img src="./assets/imgs/accesorios/cafiza.svg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                                    <h6 class="fw-bold">Formato: 900 g</h6>
-                            </div>
-                    </div>
-
-            </div>
-
-            <div class="col">
-                    <div class="card card-extra">
-                            <h5 class="card-header fw-bold">OTRAS VARIEDADES</h5>
-                            <ul>
-                                    <li>Bomba syrup, unidad dispensadora</li>
-                                    <li>Bomba Salsa, unidad dispensadora</li>
-                                    <li>Filtros Bunn, caja 500 undidades</li>
-                                    <li>Apoya Tamper, Unidad antideslizante</li>
-                                    <li>Filtro ciego metálico, unidad para limpieza cafetera</li>
-                                    <li>Knockbox profesional metálico, unidad para descarga borra de café</li>
-                                    <li>Escobilla limpiadora, unidad plástica</li>
-                                    <li>Sachets sucralosa logo Caffè Mauro, caja 1000 unidades</li>
-                                    <li>Sachets Azúcar logo Caffé Mauro: caja 1000 unidades</li>
-                                    <li>Jarra Lattiera 75 ml logo Caffé Mauro. Unidad acero inoxidable</li>
-                                    <li>Vaso Shot de café. Unidad, vidrio con registro de medida</li>
-                                    <li>Rinza. detergente limpiador  lancetas vaporizador. Formato de 1L</li>
-                                    <li>Grindz. Detergente limpiador molinos. Formato 430 g</li>
-                                    <li>Apoya Tamper, Unidad antideslizante</li>
-                            </ul>
-
-                    </div>
-            </div>
+      <div class="card card-medium">
+        <h5 class="card-header fw-bold">ATRIL METÁLICO SYRUP</h5>
+        <img src="./assets/imgs/accesorios/atril-metalico.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="fw-bold">Capacidad: 4-6 botellas</h6>
+        </div>
+      </div>
 
 
-    </div>
+      <div class="card card-medium">
+        <h5 class="card-header fw-bold">TAMPER PROFESIONAL MADERA</h5>
+        <img src="./assets/imgs/accesorios/tamper.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="fw-bold">Unidad</h6>
+        </div>
+      </div>
 
-    <a href="#">Contáctanos</a>`
+
+      <div class="card card-medium">
+        <h5 class="card-header fw-bold">JARRA LATTIERA 50 ML
+          LOGO CAFFÉ MAURO</h5>
+        <img src="./assets/imgs/accesorios/jarra.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="fw-bold">Unidad acero inoxidable</h6>
+        </div>
+      </div>
+
+
+      <div class="card card-medium">
+        <h5 class="card-header fw-bold">CAFIZA, DETERGENTE
+          LIMPIADOR CAFETERAS</h5>
+        <img src="./assets/imgs/accesorios/cafiza.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="fw-bold">Formato: 900 g</h6>
+        </div>
+      </div>
+
+      <div class="card card-extra">
+        <h5 class="card-header fw-bold">OTRAS VARIEDADES</h5>
+        <ul >
+          <li>Bomba syrup, unidad dispensadora</li>
+          <li>Bomba Salsa, unidad dispensadora</li>
+          <li>Filtros Bunn, caja 500 undidades</li>
+          <li>Apoya Tamper, Unidad antideslizante</li>
+          <li>Filtro ciego metálico, unidad para limpieza cafetera</li>
+          <li>Knockbox profesional metálico, unidad para descarga borra de café</li>
+          <li>Escobilla limpiadora, unidad plástica</li>
+          <li>Sachets sucralosa logo Caffè Mauro, caja 1000 unidades</li>
+          <li>Sachets Azúcar logo Caffé Mauro: caja 1000 unidades</li>
+          <li>Jarra Lattiera 75 ml logo Caffé Mauro. Unidad acero inoxidable</li>
+          <li>Vaso Shot de café. Unidad, vidrio con registro de medida</li>
+          <li>Rinza. detergente limpiador lancetas vaporizador. Formato de 1L</li>
+          <li>Grindz. Detergente limpiador molinos. Formato 430 g</li>
+          <li>Apoya Tamper, Unidad antideslizante</li>
+        </ul>
+
+      </div>
+      
+
+
+    </div>`
 }
 
 // TODO crear template para la vista de maquinas
