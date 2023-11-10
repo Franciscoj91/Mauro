@@ -412,7 +412,214 @@ let accessoriesTemplate = {
 let machinesTemplate = {
     url: 'url("./assets/imgs/header/maquinas.png")',
     lg: 'url("./assets/imgs/header/maquinas-lg.png")',
-    template: `<h1> Maquinas </h1>`
+    template: `<p class="fw-bold">Molinos</p>
+    <hr>
+
+    <p class="text-product mx-auto mx-lg-0 me-lg-auto d-lg-none">Somos los representantes de Eureka en Chile.</p>
+
+    <div class="eureka w-100">
+      <div class="eureka-bg">
+
+        <img src="./assets/imgs/maquinas/eureka.png" alt="">
+      </div>
+      <div class="d-none d-lg-flex eureka-text">
+        <p class="fw-bold">”</p>
+        <p class="fw-bold">Somos los representantes de Eureka en Chile.</p>
+      </div>
+    </div>
+
+    <div class="products-medium-alternative">
+
+      <div class="card card-medium-alternative">
+        <h5 class="card-header fw-bold">MOLINO DROGHERIA MCD4 75</h5>
+        <img src="./assets/imgs/maquinas/molino-drogheria.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="fw-bold">Capacidad 1.5 kg en tolva. Especiales para tostadores.
+            Producción de 250 grs cada 22 segundos aproximadamente.</h6>
+        </div>
+      </div>
+
+      <div class="card card-medium-alternative">
+        <h5 class="card-header fw-bold">MOLINO DROGHERIA MCD4 75</h5>
+        <img src="./assets/imgs/maquinas/molino-drogheria.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="fw-bold">Capacidad 1.5 kg en tolva. Especiales para tostadores.
+            Producción de 250 grs cada 22 segundos aproximadamente.</h6>
+        </div>
+      </div>
+
+
+      <div class="card card-medium-alternative">
+        <h5 class="card-header fw-bold">MOLINO DROGHERIA MCD4 75</h5>
+        <img src="./assets/imgs/maquinas/molino-drogheria.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="fw-bold">Capacidad 1.5 kg en tolva. Especiales para tostadores.
+            Producción de 250 grs cada 22 segundos aproximadamente.</h6>
+        </div>
+      </div>
+
+
+      <div class="card card-medium-alternative">
+        <h5 class="card-header fw-bold">MOLINO DROGHERIA MCD4 75</h5>
+        <img src="./assets/imgs/maquinas/molino-drogheria.svg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h6 class="fw-bold">Capacidad 1.5 kg en tolva. Especiales para tostadores.
+            Producción de 250 grs cada 22 segundos aproximadamente.</h6>
+        </div>
+      </div>
+
+
+
+
+    </div>
+
+    <p class="fw-bold">Cafeteras</p>
+    <hr>
+
+    <p class="text-product mx-auto mx-lg-0 me-lg-auto">Contamos con distintos modelos y marcas de máquinas que se
+      ajustan a tu flujo de ventas.</p>
+
+    <div class="products-medium">
+
+      <div class="card card-medium">
+        <h5 class="card-header fw-bold">PERCOLADORA WESTBEND 3700</h5>
+        <div class="card-medium-img">
+
+          <img src="./assets/imgs/maquinas/cafeteras/westbend-3700.png" class="card-img-top" alt="...">
+        </div>
+
+      </div>
+
+      <div class="card card-medium d-none d-lg-block">
+        <h5 class="card-header fw-bold">PERCOLADORA WESTBEND 3700</h5>
+        <div class="card-medium-img">
+
+          <img src="./assets/imgs/maquinas/cafeteras/westbend-3700.png" class="card-img-top" alt="...">
+        </div>
+
+      </div>
+
+
+
+      <div class="card card-medium d-none d-lg-block">
+        <h5 class="card-header fw-bold">MÁS MERCHANDISING</h5>
+        <ul>
+          <li>Magister de 2 y 3 grupos</li>
+          <li>La Pavoni de 1 y 2 grupos</li>
+        </ul>
+      </div>
+
+
+    </div>
+
+    <div class="collapse d-lg-block" id="collapseProducts">
+
+      <div class="products-medium d-lg-none">
+
+        <div class="card card-medium">
+          <h5 class="card-header fw-bold">PERCOLADORA WESTBEND 3700</h5>
+          <div class="card-medium-img">
+
+            <img src="./assets/imgs/maquinas/cafeteras/westbend-3700.png" class="card-img-top" alt="...">
+          </div>
+
+        </div>
+
+
+
+        <div class="card card-medium">
+          <h5 class="card-header fw-bold">MÁS MERCHANDISING</h5>
+          <ul>
+            <li>Magister de 2 y 3 grupos</li>
+            <li>La Pavoni de 1 y 2 grupos</li>
+          </ul>
+        </div>
+
+
+      </div>
+
+      <p class="fw-bold">Percoladora</p>
+      <hr>
+
+      <p class="text-product mx-auto mx-lg-0 me-lg-auto">Otras versiones en capacidad de tazas, pregunta por stock
+        disponible.</p>
+
+      <div class="products-medium">
+
+        <div class="card card-medium">
+          <h5 class="card-header fw-bold">PERCOLADORA WESTBEND 3700</h5>
+          <img src="./assets/imgs/maquinas/precoladora/precoladora.svg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h6 class="fw-bold">Rendimiento para 100 tazas</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    <p class="fw-bold d-lg-none" data-bs-toggle="collapse" href="#collapseProducts" role="button"
+      aria-expanded="false" aria-controls="collapseExample" id="collapseText">ver más <img
+        src="./assets/imgs/flecha.svg" alt="icono"></p>
+
+    <section />
+
+
+
+
+
+</div>
+
+<a href="#" id="contact-btn">Contáctanos</a>
+
+</main>
+
+
+<footer class="container-fluid text-center">
+<div class="row row-cols-1 row-cols-lg-4">
+  <div class="col col-lg-2">
+    <img src="./assets/imgs/Logotipo_1.2.svg" alt="logotipo alternativo" class="logo-footer mx-auto d-block">
+  </div>
+  <div class="col col-lg-4">
+    <div class="footer-info">
+      <h3 class="fw-bold">SOMOS SOCIOS COMERCIALES, NO PROVEEDORES</h3>
+
+      <p>Andonie y Gidi posee la representación exclusiva en Chile de la marca Caffè Mauro, nuestra
+        presencia data
+        del año 2011. <span class="d-none d-lg-inline">Contamos con bodegas que poseen las condiciones
+          ambientales óptimas para una buena mantención del café, certificadas por el Seremi de Salud
+          Metropolitano.</span></p>
+    </div>
+  </div>
+
+  <div class="col col-lg-3">
+    <div class="footer-menu d-none d-lg-flex flex-column align-content-lg-start flex-wrap text-lg-start">
+      <h3 class="fw-bold">CAFFÈ MAURO</h3>
+      <a href="" class="d-block">Nuestra historia</a>
+      <a href="" class="d-block">Socios comerciales</a>
+      <a href="" class="d-block">Insumos y maquinarias</a>
+    </div>
+  </div>
+
+  <div class="col col-lg-3">
+    <div class="footer-contact">
+      <h3 class="fw-bold">CONTACTO</h3>
+      <p class="address"><span class="d-none d-lg-block text-bold">Dirección</span>
+        <a href="https://maps.app.goo.gl/w4rVtRQpnwRw2FuGA" target="_blank">Alfredo Barros Errázuriz
+          1954 Of. 1108,
+          Providencia Santiago, Chile</a>
+      </p>
+      <p><strong>Teléfono:</strong> <a href="tel:+56223416590">(+56) 2 2341 6590</a></p>
+      <p><strong>Email:</strong> <a href="mailto:comercial@caffemauro.cl">comercial@caffemauro.cl</a></p>
+      <a class="text-lg-start" href="https://www.instagram.com/caffemaurochile/" target="_blank"><img
+          src="./assets/imgs/instagram.svg" alt="instagram"></a>
+    </div>
+
+  </div>
+  <div class="col col-lg-12">
+    <div class="copyright">
+      <hr>
+      <p>&copy Caffè Mauro tvodos los derechos reservados. Diseñado por Brandmut.</p>
+    </div>
+  </div>
+</div>`
 }
 
 let merchandisingTemplate = {
