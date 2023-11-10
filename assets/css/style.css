@@ -99,6 +99,7 @@ body {
     align-items: center;
     text-align: center;
     width: 100vw;
+    margin-left: 28px;
 }
 
 .offcanvas-menu {
