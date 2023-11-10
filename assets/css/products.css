@@ -132,6 +132,38 @@
     row-gap: 30px;
 }
 
+.products-medium-alternative {
+    display: grid;
+    grid-template-columns: 290px;
+    grid-auto-rows: 340px;
+    justify-content: center;
+    border-radius: 50px;
+    row-gap: 30px;
+    column-gap: 50px;
+}
+
+.eureka {
+    width: 180px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.eureka-bg {
+    width: 180px;
+    height: 186.835px;
+    border-radius: 20px;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eureka-bg img {
+    width: 120.759px;
+    height: 124.177px;
+}
+
 
 
 .card {
@@ -197,6 +229,10 @@
     bottom: 30px;
     width: 24ch;
     left: 45px;
+}
+
+#collapseProducts {
+    margin-top: 30px;
 }
 
 #collapseText {
@@ -277,6 +313,34 @@
     flex-direction: column;
 }
 
+.card-medium-img {
+    width: 237px;
+    height: 164.604px;
+    margin: 9px auto;
+    background-color: #fff;
+    border-radius: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-medium-img img {
+    width: 185px;
+    height: 146px;
+}
+
+
+.card.card-medium-alternative {
+    height: 340px;
+}
+
+.card.card-medium-alternative h6 {
+    position: static;
+    margin: 17.56px auto;
+    width: 25ch;
+    line-height: 17.76px;
+}
+
 .card.card-extra {
     width: 290px;
     height: 534px;
@@ -303,6 +367,37 @@
 }
 
 @media only screen and (min-width: 992px) {
+
+    .eureka {
+        display: flex;
+        justify-content: flex-start;
+        gap: 52px;
+    }
+
+    .eureka-bg {
+        width: 240px;
+        height: 249.114px;
+    }
+
+    .eureka-bg img {
+        width: 161px;
+        height: 165px;
+    }
+
+    .eureka-text {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .eureka-text p{
+        margin: 0;
+    }
+
+    .eureka-text p:first-child {
+        margin: 0;
+        font-size: 50px;
+    }
+
     #collapseMenu {
         margin-bottom: 320px;
         font-size: 18px;
@@ -448,6 +543,10 @@
         width: 35ch;
     }
 
+    .card.card-medium-alternative {
+        height: auto;
+    }
+
     .products-small {
         grid-template-columns: 250px 250px 250px;
         grid-auto-rows: 250px;
@@ -469,6 +568,12 @@
     .products-medium {
         grid-template-columns: 353px 353px;
         grid-auto-rows: max-content;
+        justify-content: flex-start;
+    }
+
+    .products-medium-alternative {
+        grid-template-columns: 353px 353px;
+        grid-auto-rows: 400px;
         justify-content: flex-start;
     }
 
