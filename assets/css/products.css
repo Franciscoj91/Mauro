@@ -368,11 +368,23 @@
     }
 
     .card.card-medium {
-        height: 352.66px;
+        height: 353px;
     }
 
     .card.card-medium h6 {
         left: 75px;
+    }
+
+    .card.card-medium ul {
+        margin-top: 14px;
+        width: 288px;
+        height: 237px;
+        padding: 48px 31px 48px 35px;
+    }
+    
+    .card.card-medium ul li {
+        width: 30ch;
+        line-height: 18.5px;
     }
 
     #contact-btn {
@@ -450,13 +462,13 @@
 
     .products-large {
         grid-template-columns: 352.66px 352.66px;
-        grid-auto-rows: max-content;
+        grid-auto-rows: 514.54px;
         justify-content: flex-start;
     }
 
     .products-medium {
         grid-template-columns: 353px 353px;
-        grid-auto-rows: 353px;
+        grid-auto-rows: max-content;
         justify-content: flex-start;
     }
 
