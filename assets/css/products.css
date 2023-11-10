@@ -2,7 +2,7 @@
 
 .dinamic-header {
     background: no-repeat url('../imgs/header/products.png');
-    background-size: 100vw; 
+    background-size: cover; 
     
     min-height: 390px;
     display: flex;
@@ -95,6 +95,21 @@
 .main-products .col {
     padding: 0;
     margin-bottom: 30px;
+}
+
+.products-small {
+    display: grid;
+    grid-template-columns: 158px 158px;
+    grid-auto-rows: 164px;
+    gap: 20px;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.products-small .card-sponsor{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-self: center;
 }
 
 .products-large {
@@ -294,6 +309,7 @@
     .dinamic-header {
         min-height: 405px;
         background: no-repeat url('../imgs/header/products-lg.png');
+        background-size: cover;
     }
 
     .dinamic-header p {
@@ -391,6 +407,18 @@
         height: 161.563px;
         font-size: 13px;
         padding-left: 30px;
+    }
+
+    .products-small {
+        grid-template-columns: 250px 250px 250px;
+        grid-auto-rows: 250px;
+        justify-content: flex-start;
+    }
+
+    .products-small .card-sponsor{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        justify-self: normal;
     }
 
     .products-large {
