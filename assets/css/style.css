@@ -99,7 +99,6 @@ body {
     align-items: center;
     text-align: center;
     width: 100vw;
-    margin-left: 28px;
 }
 
 .offcanvas-menu {
@@ -369,6 +368,11 @@ footer a {
 
     .offcanvas-menu li:nth-child(even) {
         margin: 0;
+    }
+
+    .offcanvas-body {
+        margin-left: 28px;
+
     }
 
     .home-header {
