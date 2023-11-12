@@ -404,11 +404,6 @@
         margin: 0;
     }
 
-    .eureka-text p:first-child {
-        margin: 0;
-        height: 50px;
-        font-size: 50px;
-    }
 
     #collapseMenu {
         margin-bottom: 320px;

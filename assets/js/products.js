@@ -325,11 +325,11 @@ let suppliesTemplate = {
         <h5 class="card-header fw-bold">OTRAS VARIEDADES</h5>
         <ul>
           <li>Gunpowder</li>
-          <li>Te verde maracuya y mango</li>
-          <li>Matcha organico</li>
+          <li>Maracuyá y mango</li>
+          <li>Matcha orgánico</li>
           <li>Berries silvestres</li>
           <li>Pu-erh</li>
-          <li>Infusion manzanilla</li>
+          <li>Infusión manzanilla</li>
         </ul>
       </div>
     </div>`
@@ -423,7 +423,7 @@ let machinesTemplate = {
         <img src="./assets/imgs/maquinas/eureka.png" alt="">
       </div>
       <div class="d-none d-lg-flex eureka-text">
-        <p class="fw-bold">”</p>
+
         <p class="fw-bold">Somos los representantes de Eureka en Chile.</p>
       </div>
     </div>
@@ -566,7 +566,7 @@ let merchandisingTemplate = {
     template: `<p class="fw-bold">Merchandising</p>
     <hr>
 
-    <p class="text-product mx-auto mx-lg-0">Todo lo que tú barra necesita, esta aquí.</p>
+    <p class="text-product mx-auto mx-lg-0">Todo para iniciar tu proyecto gastronómico está aqui.</p>
 
     <div class="products-medium">
 
