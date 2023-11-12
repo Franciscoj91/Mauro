@@ -224,7 +224,7 @@ let suppliesTemplate = {
 
       <div class="card card-small d-none d-lg-block">
         <h5 class="card-header fw-bold">FRAPPÉ</h5>
-        <img src="./assets/imgs/productos/caffe-mauro/peru.svg" class="card-img-top" alt="...">
+        <img src="./assets/imgs/insumos/frappe.svg" class="card-img-top" alt="...">
 
       </div>
 
@@ -415,7 +415,7 @@ let machinesTemplate = {
     template: `<p class="fw-bold">Molinos</p>
     <hr>
 
-    <p class="text-product mx-auto mx-lg-0 me-lg-auto d-lg-none">Somos los representantes de Eureka en Chile.</p>
+    <p class="text-product mx-auto mx-lg-0 me-lg-auto d-lg-none text-eureka">Somos los representantes de Eureka en Chile.</p>
 
     <div class="eureka w-100">
       <div class="eureka-bg">
@@ -642,7 +642,7 @@ menu.forEach((item, i) => {
         console.log(screen.width)
         
         screen.width >= 992 ? headerBackground.style.backgroundImage = templates[i].lg : headerBackground.style.backgroundImage = templates[i].url;
-        headerText.innerText = item.innerText;
+        headerText.innerText = `${i + 1}. ${item.innerText}`;
         productsSection.innerHTML = templates[i].template;
     })
 })
