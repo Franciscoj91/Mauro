@@ -194,7 +194,7 @@
     font-size: 14px;
     width: 24ch;
     padding: 0;
-    margin: 24px auto 18px;
+    margin: 25px auto 20px;
 }
 
 .card-img-top {
@@ -236,10 +236,20 @@
     height: 290px;
 }
 
+#accesoriesCards .card.card-medium:nth-child(3)  h6, #accesoriesCards .card.card-medium:nth-child(4) h6{
+    margin: 22px auto 22px;
+    
+}
+
+#accesoriesCards .card.card-medium:nth-child(3)  .card-header, #accesoriesCards .card.card-medium:nth-child(4) .card-header{
+    margin: 18px auto 13px;
+    width: 20ch;
+}
+
 .card.card-medium h6 {
     position: static;
     width: 24ch;
-    margin: 25px auto;
+    margin: 23px auto 24px;
 }
 
 #collapseProducts {
