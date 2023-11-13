@@ -221,7 +221,7 @@ let productsTemplate = {
 
 let suppliesTemplate = {
     url: 'url("./assets/imgs/header/insumos.png")',
-    lg: 'url("./assets/imgs/header/insumos-lg.png")',
+    lg: 'url("./assets/imgs/header/insumos-lg.webp")',
     template: `<p class="fw-bold">Cápsulas compatibles Nesspreso</p>
     <hr>
 
@@ -404,17 +404,20 @@ let suppliesTemplate = {
 
 let accessoriesTemplate = {
     url: 'url("./assets/imgs/header/accesorios.png")',
-    lg: 'url("./assets/imgs/header/accesorios-lg.png")',
+    lg: 'url("./assets/imgs/header/accesorios-lg.jpg")',
     template: `<p class="fw-bold">Accesorios</p>
     <hr>
 
     <p class="text-product mx-auto mx-lg-0">Todo lo que tú barra necesita, esta aquí.</p>
 
-    <div class="products-medium">
+    <div class="products-medium" id="accesoriesCards">
 
       <div class="card card-medium">
         <h5 class="card-header fw-bold">ATRIL METÁLICO SYRUP</h5>
-        <img src="./assets/imgs/accesorios/atril-metalico.svg" class="card-img-top" alt="...">
+        <div class="card-medium-img">
+
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(3) Accesorios/(3) Accesorios-26.png" class="card-img-top" alt="...">
+        </div>
         <div class="card-body">
           <h6 class="fw-bold">Capacidad: 4-6 botellas</h6>
         </div>
@@ -423,7 +426,10 @@ let accessoriesTemplate = {
 
       <div class="card card-medium">
         <h5 class="card-header fw-bold">TAMPER PROFESIONAL MADERA</h5>
-        <img src="./assets/imgs/accesorios/tamper.svg" class="card-img-top" alt="...">
+        <div class="card-medium-img">
+
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(3) Accesorios/(3) Accesorios-27.png" class="card-img-top" alt="...">
+        </div>
         <div class="card-body">
           <h6 class="fw-bold">Unidad</h6>
         </div>
@@ -433,7 +439,10 @@ let accessoriesTemplate = {
       <div class="card card-medium">
         <h5 class="card-header fw-bold">JARRA LATTIERA 50 ML
           LOGO CAFFÉ MAURO</h5>
-        <img src="./assets/imgs/accesorios/jarra.svg" class="card-img-top" alt="...">
+          <div class="card-medium-img">
+
+            <img src="./assets/imgs/Fotos Insumos y Maquinarias/(3) Accesorios/(3) Accesorios-28.png" class="card-img-top" alt="...">
+          </div>
         <div class="card-body">
           <h6 class="fw-bold">Unidad acero inoxidable</h6>
         </div>
@@ -443,7 +452,10 @@ let accessoriesTemplate = {
       <div class="card card-medium">
         <h5 class="card-header fw-bold">CAFIZA, DETERGENTE
           LIMPIADOR CAFETERAS</h5>
-        <img src="./assets/imgs/accesorios/cafiza.svg" class="card-img-top" alt="...">
+          <div class="card-medium-img">
+
+            <img src="./assets/imgs/Fotos Insumos y Maquinarias/(3) Accesorios/(3) Accesorios-29.png" class="card-img-top" alt="...">
+          </div>
         <div class="card-body">
           <h6 class="fw-bold">Formato: 900 g</h6>
         </div>
@@ -451,7 +463,7 @@ let accessoriesTemplate = {
 
       <div class="card card-extra">
         <h5 class="card-header fw-bold">OTRAS VARIEDADES</h5>
-        <ul >
+        <ul>
           <li>Bomba syrup, unidad dispensadora</li>
           <li>Bomba Salsa, unidad dispensadora</li>
           <li>Filtros Bunn, caja 500 undidades</li>
@@ -469,7 +481,7 @@ let accessoriesTemplate = {
         </ul>
 
       </div>
-      
+
 
 
     </div>`
@@ -651,7 +663,7 @@ let machinesTemplate = {
 
 let merchandisingTemplate = {
     url: 'url("./assets/imgs/header/merchandising.png")',
-    lg: 'url("./assets/imgs/header/merchandising-lg.png")',
+    lg: 'url("./assets/imgs/header/merchandising-lg.webp")',
     template: `<p class="fw-bold">Merchandising</p>
     <hr>
 
