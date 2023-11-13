@@ -31,7 +31,7 @@
     
 }
 
-.main-products>.row .col-lg-4>p {
+.sub-menu p {
     border-bottom: 2px solid ;
     margin: 0;
     padding: 33px 0 15px;
@@ -408,7 +408,7 @@
 
 
     #collapseMenu {
-        margin-bottom: 320px;
+        margin-bottom: 96px;
         font-size: 18px;
     }
 
@@ -455,9 +455,14 @@
         margin-bottom: 40px;
     }
 
-    .main-products>.row .col-lg-4>p {
-        padding-top: 40px;
+    .sub-menu {
+        top: 40%;
+    }
+
+    .sub-menu p {
+        padding-top: 65px;
         text-align: start;
+        margin-bottom: 40px;
     }
 
 
