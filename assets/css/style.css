@@ -205,7 +205,8 @@ body {
     color: var(--secondary-color);
     border: 0;
     border-radius: 31px;
-
+    text-decoration: none;
+    text-align: center;
 }
 
 .cta-btn-active {
