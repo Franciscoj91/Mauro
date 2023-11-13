@@ -190,7 +190,7 @@
     font-size: 14px;
     width: 24ch;
     padding: 0;
-    margin: 18px auto;
+    margin: 24px auto 18px;
 }
 
 .card-img-top {
@@ -207,7 +207,7 @@
 }
 
 .card-body p {
-    margin: 13.3px auto 0;
+    margin: 10px auto 0;
     width: 29ch;
     text-align: justify;
 }
@@ -233,9 +233,9 @@
 }
 
 .card.card-medium h6 {
-    bottom: 30px;
+    position: static;
     width: 24ch;
-    left: 45px;
+    margin: 25px auto;
 }
 
 #collapseProducts {
@@ -327,7 +327,7 @@
 .card-medium-img {
     width: 237px;
     height: 165px;
-    margin: 9px auto;
+    margin: auto;
     background-color: #fff;
     border-radius: 30px;
     display: flex;
@@ -375,6 +375,26 @@
 
 .card.card-extra ul li {
     width: 28ch;
+}
+
+.card-info-img {
+    width: 237px;
+    height: 165px;
+    border-radius: 30px;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.card-info-img img:first-child {
+    width: auto;
+    height: 135px;
+    margin-left: 10px;
+}
+
+.card-info-img img:last-child {
+    margin-left: 8px;
 }
 
 @media only screen and (min-width: 992px) {
