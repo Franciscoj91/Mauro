@@ -438,15 +438,21 @@
     .products p {
         text-align: start;
         width: 100%;
+        margin-top: 65px;
     }
 
     .products hr {
-        width: 100%;
+        width: 763px;
+        margin-bottom: 40px;
+        margin-left: 0;
+        margin-right: auto;
     }
+
 
     .text-product.mx-auto {
         width: 57ch;
         font-size: 20px;
+        margin-bottom: 40px;
     }
 
     .main-products>.row .col-lg-4>p {
@@ -470,6 +476,7 @@
         text-align: justify;
         font-size: 14px;
         width: 30ch;
+        margin-top: 15px;
         
     }
 
