@@ -415,7 +415,8 @@ let machinesTemplate = {
     template: `<p class="fw-bold">Molinos</p>
     <hr>
 
-    <p class="text-product mx-auto mx-lg-0 me-lg-auto d-lg-none text-eureka">Somos los representantes de Eureka en Chile.</p>
+    <p class="text-product mx-auto mx-lg-0 me-lg-auto d-lg-none text-eureka">Somos los representantes de Eureka en
+      Chile.</p>
 
     <div class="eureka w-100">
       <div class="eureka-bg">
@@ -432,7 +433,11 @@ let machinesTemplate = {
 
       <div class="card card-medium-alternative">
         <h5 class="card-header fw-bold">MOLINO DROGHERIA MCD4 75</h5>
-        <img src="./assets/imgs/maquinas/molino-drogheria.svg" class="card-img-top" alt="...">
+        <div class="card-medium-img">
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(4) Ma╠üquinas/(4) Ma╠üquinas-30.png"
+            class="card-img-top" alt="...">
+
+        </div>
         <div class="card-body">
           <h6 class="fw-bold">Capacidad 1.5 kg en tolva. Especiales para tostadores.
             Producción de 250 grs cada 22 segundos aproximadamente.</h6>
@@ -440,31 +445,41 @@ let machinesTemplate = {
       </div>
 
       <div class="card card-medium-alternative">
-        <h5 class="card-header fw-bold">MOLINO DROGHERIA MCD4 75</h5>
-        <img src="./assets/imgs/maquinas/molino-drogheria.svg" class="card-img-top" alt="...">
+        <h5 class="card-header fw-bold">MOLINO ATOM SPECIALTY 65 E</h5>
+        <div class="card-medium-img">
+
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(4) Ma╠üquinas/(4) Ma╠üquinas-31.png"
+            class="card-img-top" alt="...">
+        </div>
         <div class="card-body">
-          <h6 class="fw-bold">Capacidad 1.5 kg en tolva. Especiales para tostadores.
-            Producción de 250 grs cada 22 segundos aproximadamente.</h6>
+          <h6 class="fw-bold">Capacidad 1.2 kg en tolva. Pantalla digital, su rendimiento es optimo para locales de
+            alto flujo.</h6>
         </div>
       </div>
 
 
       <div class="card card-medium-alternative">
-        <h5 class="card-header fw-bold">MOLINO DROGHERIA MCD4 75</h5>
-        <img src="./assets/imgs/maquinas/molino-drogheria.svg" class="card-img-top" alt="...">
+        <h5 class="card-header fw-bold">MOLINO ZENITH NEO 65</h5>
+        <div class="card-medium-img">
+
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(4) Ma╠üquinas/(4) Ma╠üquinas-32.png"
+            class="card-img-top" alt="...">
+        </div>
         <div class="card-body">
-          <h6 class="fw-bold">Capacidad 1.5 kg en tolva. Especiales para tostadores.
-            Producción de 250 grs cada 22 segundos aproximadamente.</h6>
+          <h6 class="fw-bold">Capacidad en tolva 1.2 kg. Pantalla digital. Regulación micrométrica.</h6>
         </div>
       </div>
 
 
       <div class="card card-medium-alternative">
-        <h5 class="card-header fw-bold">MOLINO DROGHERIA MCD4 75</h5>
-        <img src="./assets/imgs/maquinas/molino-drogheria.svg" class="card-img-top" alt="...">
+        <h5 class="card-header fw-bold">MOLINO MIGNON SPECIALITA 55</h5>
+        <div class="card-medium-img">
+
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(4) Ma╠üquinas/(4) Ma╠üquinas-33.png"
+            class="card-img-top" alt="...">
+        </div>
         <div class="card-body">
-          <h6 class="fw-bold">Capacidad 1.5 kg en tolva. Especiales para tostadores.
-            Producción de 250 grs cada 22 segundos aproximadamente.</h6>
+          <h6 class="fw-bold">Capacidad en tolva 500 gr. Pantalla digital touch. 5.6 kg de peso total.</h6>
         </div>
       </div>
 
@@ -482,19 +497,21 @@ let machinesTemplate = {
     <div class="products-medium">
 
       <div class="card card-medium">
-        <h5 class="card-header fw-bold">PERCOLADORA WESTBEND 3700</h5>
+        <h5 class="card-header fw-bold">RANCILIO 2 GRUPOS</h5>
         <div class="card-medium-img">
 
-          <img src="./assets/imgs/maquinas/cafeteras/westbend-3700.png" class="card-img-top" alt="...">
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(4) Ma╠üquinas/(4) Ma╠üquinas-34.png"
+            class="card-img-top" alt="...">
         </div>
 
       </div>
 
       <div class="card card-medium d-none d-lg-block">
-        <h5 class="card-header fw-bold">PERCOLADORA WESTBEND 3700</h5>
+        <h5 class="card-header fw-bold">RANCILIO 3 GRUPOS</h5>
         <div class="card-medium-img">
 
-          <img src="./assets/imgs/maquinas/cafeteras/westbend-3700.png" class="card-img-top" alt="...">
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(4) Ma╠üquinas/(4) Ma╠üquinas-35.png"
+            class="card-img-top" alt="...">
         </div>
 
       </div>
@@ -502,7 +519,7 @@ let machinesTemplate = {
 
 
       <div class="card card-medium d-none d-lg-block">
-        <h5 class="card-header fw-bold">MÁS MERCHANDISING</h5>
+        <h5 class="card-header fw-bold">OTRAS CAFETERAS</h5>
         <ul>
           <li>Magister de 2 y 3 grupos</li>
           <li>La Pavoni de 1 y 2 grupos</li>
@@ -517,10 +534,11 @@ let machinesTemplate = {
       <div class="products-medium d-lg-none">
 
         <div class="card card-medium">
-          <h5 class="card-header fw-bold">PERCOLADORA WESTBEND 3700</h5>
+          <h5 class="card-header fw-bold">RANCILIO 3 GRUPOS</h5>
           <div class="card-medium-img">
 
-            <img src="./assets/imgs/maquinas/cafeteras/westbend-3700.png" class="card-img-top" alt="...">
+            <img src="./assets/imgs/Fotos Insumos y Maquinarias/(4) Ma╠üquinas/(4) Ma╠üquinas-35.png"
+              class="card-img-top" alt="...">
           </div>
 
         </div>
@@ -528,7 +546,7 @@ let machinesTemplate = {
 
 
         <div class="card card-medium">
-          <h5 class="card-header fw-bold">MÁS MERCHANDISING</h5>
+          <h5 class="card-header fw-bold">OTRAS CAFETERAS</h5>
           <ul>
             <li>Magister de 2 y 3 grupos</li>
             <li>La Pavoni de 1 y 2 grupos</li>
@@ -548,7 +566,11 @@ let machinesTemplate = {
 
         <div class="card card-medium">
           <h5 class="card-header fw-bold">PERCOLADORA WESTBEND 3700</h5>
-          <img src="./assets/imgs/maquinas/precoladora/precoladora.svg" class="card-img-top" alt="...">
+          <div class="card-medium-img">
+
+            <img src="./assets/imgs/Fotos Insumos y Maquinarias/(4) Ma╠üquinas/(4) Ma╠üquinas-36.png"
+              class="card-img-top" alt="...">
+          </div>
           <div class="card-body">
             <h6 class="fw-bold">Rendimiento para 100 tazas</h6>
           </div>
