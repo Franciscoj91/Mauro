@@ -8,7 +8,10 @@ let productsTemplate = {
 
       <div class="card">
         <h5 class="card-header fw-bold">CAFFÈ MAURO 100% ARÁBICA</h5>
-        <img src="./assets/imgs/productos/caffe-mauro/arabica.svg" class="card-img-top" alt="...">
+        <div class="card-info-img">
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(1) Caffe╠ü Mauro/(1)Caffe╠Ç Mauro-1.png" alt="">
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(1) Caffe╠ü Mauro/caffe-mauro-1.svg" alt="">
+        </div>
         <div class="card-body">
           <p class="card-text">Refinada y exclusiva, la mezcla de granos de Arábica de Caffè Mauro
             Centopercento está compuesta por finos cafés arábigos procedentes de plantaciones
@@ -21,7 +24,10 @@ let productsTemplate = {
 
       <div class="card">
         <h5 class="card-header fw-bold">CAFFÈ MAURO DE LUXE</h5>
-        <img src="./assets/imgs/productos/caffe-mauro/deluxe.svg" class="card-img-top" alt="...">
+        <div class="card-info-img">
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(1) Caffe╠ü Mauro/(1)Caffe╠Ç Mauro-2.png" alt="">
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(1) Caffe╠ü Mauro/caffe-mauro-2.svg" alt="">
+        </div>
         <div class="card-body">
           <p class="card-text">Es una mezcla elegante y aromática. Al degustarlo se evidencia mucho
             cuerpo y un sabor redondo. Los finos arábicas brasileños naturales aportan notas
@@ -34,7 +40,10 @@ let productsTemplate = {
 
       <div class="card">
         <h5 class="card-header fw-bold">CAFFÈ MAURO PREMIUM</h5>
-        <img src="./assets/imgs/productos/caffe-mauro/premium.svg" class="card-img-top" alt="...">
+        <div class="card-info-img">
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(1) Caffe╠ü Mauro/(1)Caffe╠Ç Mauro-3.png" alt="">
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(1) Caffe╠ü Mauro/caffe-mauro-3.svg" alt="">
+        </div>
         <div class="card-body">
           <p class="card-text">Una mezcla equilibrada y envolvente. Notas de cacao y especias llenan
             el paladar, realzando la particularidad de las mejores robustas africanas naturales. La
@@ -47,7 +56,10 @@ let productsTemplate = {
 
       <div class="card">
         <h5 class="card-header fw-bold">CAFFÈ MAURO SPECIAL BAR</h5>
-        <img src="./assets/imgs/productos/caffe-mauro/special.svg" class="card-img-top" alt="...">
+        <div class="card-info-img">
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(1) Caffe╠ü Mauro/(1)Caffe╠Ç Mauro-4.png" alt="">
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(1) Caffe╠ü Mauro/caffe-mauro-4.svg" alt="">
+        </div>
         <div class="card-body">
           <p class="card-text">Mezcla de sabor fuerte, con la dulzura de los arábicas brasileños sobre
             el fondo de finos robustas del sudeste asiático y africano que le dan cuerpo, floralidad
@@ -59,7 +71,10 @@ let productsTemplate = {
 
       <div class="card">
         <h5 class="card-header fw-bold">CAFFÈ MAURO PERÚ ORGÁNICO</h5>
-        <img src="./assets/imgs/productos/caffe-mauro/peru.svg" class="card-img-top" alt="...">
+        <div class="card-info-img">
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(1) Caffe╠ü Mauro/(1)Caffe╠Ç Mauro-5.png" alt="">
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(1) Caffe╠ü Mauro/caffe-mauro-5.svg" alt="">
+        </div>
         <div class="card-body">
           <p class="card-text">Desarrollo solidario, reforestación y protección de la biodiversidad
             Respect Perù 100% Arábica representa el compromiso de la empresa tostadora Caffè Mauro
@@ -84,7 +99,10 @@ let productsTemplate = {
 
       <div class="card card-medium">
         <h5 class="card-header fw-bold">CAFFÈ MAURO DESCAFEINADO</h5>
-        <img src="./assets/imgs/productos/caffe-descaf/Group 20.svg" class="card-img-top" alt="...">
+        <div class="card-medium-img">
+
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(1) Caffe╠ü Mauro/(1)Caffe╠Ç Mauro-6.png" class="card-img-top" alt="...">
+        </div>
         <div class="card-body">
           <h6 class="fw-bold">Formato caja: 18 compostables</h6>
         </div>
@@ -102,7 +120,10 @@ let productsTemplate = {
 
         <div class="card card-medium">
           <h5 class="card-header fw-bold">CAFFÈ MAURO 100% ARÁBICA</h5>
-          <img src="./assets/imgs/productos/capsulas/arabica.svg" class="card-img-top" alt="...">
+          <div class="card-medium-img">
+
+            <img src="./assets/imgs/Fotos Insumos y Maquinarias/(1) Caffe╠ü Mauro/(1)Caffe╠Ç Mauro-7.png" class="card-img-top" alt="...">
+          </div>
           <div class="card-body">
             <h6 class="fw-bold">Formato caja: 10 cápsulas</h6>
           </div>
@@ -112,7 +133,11 @@ let productsTemplate = {
 
         <div class="card card-medium">
           <h5 class="card-header fw-bold">CAFFÈ MAURO DE LUXE</h5>
-          <img src="./assets/imgs/productos/capsulas/deluxe.svg" class="card-img-top" alt="...">
+
+          <div class="card-medium-img">
+
+            <img src="./assets/imgs/Fotos Insumos y Maquinarias/(1) Caffe╠ü Mauro/(1)Caffe╠Ç Mauro-8.png" class="card-img-top" alt="...">
+          </div>
           <div class="card-body">
             <h6 class="fw-bold">Formato caja: 10 cápsulas</h6>
           </div>
@@ -132,7 +157,10 @@ let productsTemplate = {
 
         <div class="card card-medium">
           <h5 class="card-header fw-bold">CAFFÈ MAURO 100% ARÁBICA</h5>
-          <img src="./assets/imgs/productos/pods/arabica.svg" class="card-img-top" alt="...">
+          <div class="card-medium-img">
+
+            <img src="./assets/imgs/Fotos Insumos y Maquinarias/(1) Caffe╠ü Mauro/(1)Caffe╠Ç Mauro-9.png" class="card-img-top" alt="...">
+          </div>
           <div class="card-body">
             <h6 class="fw-bold">Formato caja: 50 vainas</h6>
           </div>
@@ -142,7 +170,10 @@ let productsTemplate = {
 
         <div class="card card-medium">
           <h5 class="card-header fw-bold">CAFFÈ MAURO DE LUXE</h5>
-          <img src="./assets/imgs/productos/pods/deluxe.svg" class="card-img-top" alt="...">
+          <div class="card-medium-img">
+
+            <img src="./assets/imgs/Fotos Insumos y Maquinarias/(1) Caffe╠ü Mauro/(1)Caffe╠Ç Mauro-10.png" class="card-img-top" alt="...">
+          </div>
           <div class="card-body">
             <h6 class="fw-bold">Formato caja: 50 vainas</h6>
           </div>
@@ -158,7 +189,10 @@ let productsTemplate = {
 
         <div class="card card-medium">
           <h5 class="card-header fw-bold">CAFFÈ MAURO 100% ARÁBICA</h5>
-          <img src="./assets/imgs/productos/cafe-molido/arabica.svg" class="card-img-top" alt="...">
+          <div class="card-medium-img">
+
+            <img src="assets/imgs/Fotos Insumos y Maquinarias/(1) Caffe╠ü Mauro/(1)Caffe╠Ç Mauro-11.png" class="card-img-top" alt="...">
+          </div>
           <div class="card-body">
             <h6 class="fw-bold">Formato lata: 250 g</h6>
           </div>
@@ -168,7 +202,10 @@ let productsTemplate = {
 
         <div class="card card-medium">
           <h5 class="card-header fw-bold">CAFFÈ MAURO DE LUXE</h5>
-          <img src="./assets/imgs/productos/cafe-molido/deluxe.svg" class="card-img-top" alt="...">
+          <div class="card-medium-img">
+
+            <img src="./assets/imgs/Fotos Insumos y Maquinarias/(1) Caffe╠ü Mauro/(1)Caffe╠Ç Mauro-12.png" class="card-img-top" alt="...">
+          </div>
           <div class="card-body">
             <h6 class="fw-bold">Formato lata: 250 g</h6>
           </div>
