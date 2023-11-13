@@ -235,33 +235,38 @@ let suppliesTemplate = {
 
       <div class="card card-small ">
         <h5 class="card-header fw-bold">CHOCOLATE EN POLVO</h5>
-        <img src="./assets/imgs/insumos/chocolate-1.svg" class="card-img-top" alt="...">
+        <div class="card-small-img">
+
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(2) Insumos/(2) Insumos-1.png" class="card-img-top" alt="...">
+        </div>
 
       </div>
 
       <div class="card card-small ">
         <h5 class="card-header fw-bold">CHOCOLATE EN POLVO</h5>
-        <img src="./assets/imgs/insumos/chocolate-2.svg" class="card-img-top" alt="...">
+        <div class="card-small-img">
+
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(2) Insumos/(2) Insumos-2.png" class="card-img-top" alt="...">
+        </div>
       </div>
 
 
-      <div class="card card-small d-lg-none">
-        <h5 class="card-header fw-bold">CHOCOLATE EN POLVO</h5>
-        <img src="./assets/imgs/insumos/chocolate-3.svg" class="card-img-top" alt="...">
-
-      </div>
-
-
-      <div class="card card-small d-none d-lg-block">
+      <div class="card card-small">
         <h5 class="card-header fw-bold">CHAI TEA</h5>
-        <img src="./assets/imgs/insumos/chocolate-3.svg" class="card-img-top" alt="...">
+        <div class="card-small-img">
+
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(2) Insumos/(2) Insumos-3.png" class="card-img-top" alt="...">
+        </div>
 
       </div>
 
 
       <div class="card card-small d-none d-lg-block">
         <h5 class="card-header fw-bold">FRAPPÉ</h5>
-        <img src="./assets/imgs/insumos/frappe.svg" class="card-img-top" alt="...">
+        <div class="card-small-img">
+
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(2) Insumos/(2) Insumos-4.png" class="card-img-top" alt="...">
+        </div>
 
       </div>
 
@@ -299,22 +304,34 @@ let suppliesTemplate = {
 
       <div class="card card-small">
         <h5 class="card-header fw-bold">SALSA DE CARAMELO</h5>
-        <img src="./assets/imgs/insumos/salsa-caramelo.svg" class="card-img-top" alt="...">
+        <div class="card-small-img">
+
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(2) Insumos/(2) Insumos-5.png" class="card-img-top" alt="...">
+        </div>
       </div>
 
 
       <div class="card card-small">
         <h5 class="card-header fw-bold">SALSA DE CHOCOLATE</h5>
-        <img src="./assets/imgs/insumos/salsa-chocolate.svg" class="card-img-top" alt="...">
+        <div class="card-small-img">
+
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(2) Insumos/(2) Insumos-6.png" class="card-img-top" alt="...">
+        </div>
 
       </div>
       <div class="card card-small">
         <h5 class="card-header fw-bold">SYRUP DE AMARETTO</h5>
-        <img src="./assets/imgs/insumos/syrup-amaretto.svg" class="card-img-top" alt="...">
+        <div class="card-small-img">
+
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(2) Insumos/(2) Insumos-7.png" class="card-img-top" alt="...">
+        </div>
       </div>
       <div class="card card-small d-none d-lg-block">
         <h5 class="card-header fw-bold">SYRUP DE VAINILLA</h5>
-        <img src="./assets/imgs/insumos/syrup-amaretto.svg" class="card-img-top" alt="...">
+        <div class="card-small-img">
+
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(2) Insumos/(2) Insumos-8.png" class="card-img-top" alt="...">
+        </div>
       </div>
       <div class="card card-small">
         <h5 class="card-header fw-bold">OTRAS VARIEDADES</h5>
@@ -333,30 +350,43 @@ let suppliesTemplate = {
     <p class="fw-bold">Té orgánico</p>
     <hr>
 
-    <p class="text-product mx-auto mx-lg-0 me-lg-auto">Elige tu sabor preferido. Tambien tenemos bolsitas
+    <p class="text-product mx-auto mx-lg-0 me-lg-auto">Elige tu sabor preferido. También tenemos bolsitas
       infusionadoras y teteras con filtros. Formato de 250 gramos.</p>
 
     <div class="products-small">
       <div class="card card-sponsor">
         <div class="card-sponsor-img">
-          <img src="./assets/imgs/insumos/sponsor-3.svg" alt="logo sponsor">
+          
+          <img src="./assets/imgs/insumos/sponsor-3.svg" alt="">
         </div>
       </div>
       <div class="card card-small">
         <h5 class="card-header fw-bold">ENGLISH BREAKFAST</h5>
-        <img src="./assets/imgs/insumos/english-breakfast.svg" class="card-img-top" alt="...">
+        <div class="card-small-img">
+
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(2) Insumos/(2) Insumos-9.png" class="card-img-top" alt="...">
+        </div>
       </div>
       <div class="card card-small">
         <h5 class="card-header fw-bold">CHAI MALASA</h5>
-        <img src="./assets/imgs/insumos/chai-malasa.svg" class="card-img-top" alt="...">
+        <div class="card-small-img">
+
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(2) Insumos/(2) Insumos-10.png" class="card-img-top" alt="...">
+        </div>
       </div>
       <div class="card card-small">
         <h5 class="card-header fw-bold">EARL GREY</h5>
-        <img src="./assets/imgs/insumos/earl-grey.svg" class="card-img-top" alt="...">
+        <div class="card-small-img">
+
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(2) Insumos/(2) Insumos-11.png" class="card-img-top" alt="...">
+        </div>
       </div>
       <div class="card card-small d-none d-lg-block">
         <h5 class="card-header fw-bold">ROOIBOS</h5>
-        <img src="./assets/imgs/insumos/earl-grey.svg" class="card-img-top" alt="...">
+        <div class="card-small-img">
+
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(2) Insumos/(2) Insumos-12.png" class="card-img-top" alt="...">
+        </div>
       </div>
       <div class="card card-small">
         <h5 class="card-header fw-bold">OTRAS VARIEDADES</h5>
