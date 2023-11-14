@@ -1,0 +1,117 @@
+.home-header {
+background-image: url("../imgs/bg-images/socios/header.png");
+min-height: 528px;
+align-items: flex-end;
+}
+
+.header-text {
+    text-align: right;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 20.4px;
+    width: 24.4ch;
+    margin-bottom: 194px;
+    margin-right: 74px;
+}
+
+.first-section {
+    min-height: 155px;
+    color: #702E3E;
+    background-color: #F2F0EE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.first-section-text {
+    width: 21ch;
+    text-align: center;
+    font-size: 16px;
+    line-height: 27.2px;
+
+}
+
+.second-section {
+    min-height: 375px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.second-section-text {
+    width: 34.7ch;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 22.8px;
+    margin: 0;
+}
+
+.third-section {
+    background-color: #FFF;
+    color: #702E3E;
+    display: flex;
+    flex-direction: column;
+}
+
+.third-section-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third-section-title {
+    font-size: 15px;
+    text-align: center;
+    line-height: 23.4px;
+    font-weight: 700;
+    width: 31.9ch;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.third-section-text ul {
+    margin: 0;
+}
+
+.third-section-text ul li {
+    font-size: 12px;
+    width: 32ch;
+    color: #000;
+}
+
+.third-section-text ul li::marker {
+    color: #702E3E;
+}
+
+
+.fourth-section {
+    background-color: #FFF;
+    color: #702E3E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fourth-section p {
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.fourth-section a {
+    font-size: 12px;
+    color: #FFF;
+    text-decoration: none;
+    background-color: #702E3E;
+    border-radius: 30px;
+    padding: 12px 13px;
+    margin-bottom: 40px;
+}
+
+.fourth-section a:hover{
+    background-color: #702E3ECC;
+}
