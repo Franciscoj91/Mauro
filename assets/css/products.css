@@ -2,8 +2,8 @@
 
 .dinamic-header {
     background: no-repeat url('../imgs/header/products.png');
-    background-size: cover; 
-    
+    background-size: cover;
+
     min-height: 390px;
     display: flex;
     flex-direction: column;
@@ -15,7 +15,7 @@
     color: #000;
     width: 244px;
     padding: 7px 0 8px;
-    
+
     margin-bottom: 20px;
     border-radius: 50px;
     background: #f2f0eecc;
@@ -28,11 +28,11 @@
     background: #F2F0EE;
     color: #000;
     padding-bottom: 40px;
-    
+
 }
 
 .sub-menu p {
-    border-bottom: 2px solid ;
+    border-bottom: 2px solid;
     margin: 0;
     padding: 33px 0 15px;
     width: 296px;
@@ -58,8 +58,8 @@
 }
 
 #collapseMenu ol li:nth-child(even) {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 
@@ -74,10 +74,10 @@
 .products hr {
     color: #000;
     width: 296px;
-    margin: 16px auto;
+    margin: 16px auto 22px;
 }
 
-.products .products-small:first-child.card-sponsor{
+.products .products-small:first-child.card-sponsor {
     margin-top: 30px;
 }
 
@@ -91,6 +91,10 @@
     margin: 40px auto 0;
     width: 150px;
     border-radius: 25px;
+}
+
+#contact-btn:hover {
+    background-color: #702E3ECC;
 }
 
 
@@ -110,7 +114,7 @@
     border-radius: 30px;
 }
 
-.products-small .card-sponsor{
+.products-small .card-sponsor {
     grid-column-start: 1;
     grid-column-end: 3;
     justify-self: center;
@@ -123,7 +127,7 @@
     row-gap: 30px;
     grid-auto-rows: 431px;
     justify-content: center;
-    
+
 }
 
 .products-medium {
@@ -164,8 +168,8 @@
 }
 
 .eureka-bg img {
-    width: 120.759px;
-    height: 124.177px;
+    width: 160px;
+    height: auto;
 }
 
 .d-lg-none.me-lg-auto.mx-auto.mx-lg-0.text-eureka.text-product {
@@ -205,9 +209,9 @@
 
 .card-body {
     padding: 0;
-    
+
     margin: 0;
-    
+
 }
 
 .card-body p {
@@ -236,15 +240,39 @@
     height: 290px;
 }
 
-#accesoriesCards .card.card-medium:nth-child(3)  h6, #accesoriesCards .card.card-medium:nth-child(4) h6{
+#accesoriesCards .card.card-medium:nth-child(3) h6,
+#accesoriesCards .card.card-medium:nth-child(4) h6 {
     margin: 22px auto 22px;
-    
+
 }
 
-#accesoriesCards .card.card-medium:nth-child(3)  .card-header, #accesoriesCards .card.card-medium:nth-child(4) .card-header{
+#accesoriesCards .card.card-medium:nth-child(3) .card-header,
+#accesoriesCards .card.card-medium:nth-child(4) .card-header {
     margin: 18px auto 13px;
     width: 20ch;
 }
+
+#merchandisingCards .card.card-medium .card-header {
+    margin: 18px auto 13px;
+    width: 20ch;
+}
+
+#merchandisingCards .card.card-medium:last-child .card-header {
+    margin: 32px auto 24px;
+    width: 20ch;
+}
+
+#merchandisingCards .card.card-medium h6 {
+    margin: 22px auto 22px;
+
+}
+
+#merchandisingCards .card.card-medium ul {
+    padding-top: 38px;
+
+}
+
+
 
 .card.card-medium h6 {
     position: static;
@@ -280,7 +308,7 @@
     border: 0;
 }
 
-.card-sponsor-img{
+.card-sponsor-img {
     border: 2px solid #000;
     border-radius: 30px;
     width: 138px;
@@ -290,6 +318,10 @@
     align-items: center;
 }
 
+.card-sponsor-img img {
+    width: 150px;
+}
+
 .card.card-small {
     width: 158px;
     height: 164px;
@@ -297,7 +329,7 @@
     border: 0;
 }
 
-.card.card-small .card-header{
+.card.card-small .card-header {
     font-size: 11.5px;
     width: 20ch;
     margin: 16px auto 12px;
@@ -328,12 +360,12 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+
 }
 
 .card.card-medium ul {
-    padding-left: 20px;
-    padding-top: 25px;
+    padding-left: 40px;
+    padding-top: 65px;
     margin: 4px auto;
     font-size: 11px;
     line-height: 15px;
@@ -355,6 +387,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.cafetera h5 {
+    margin: 30px auto 20px;
+}
+
+.cafetera .card-medium-img {
+    margin: 8px auto;
 }
 
 .card-medium-img img {
@@ -382,7 +422,7 @@
 
 .card.card-extra ul {
     padding-left: 20px;
-    padding-top: 25px;
+    padding-top: 33px;
     margin: 0 auto;
     font-size: 11px;
     line-height: 15px;
@@ -434,8 +474,7 @@
     }
 
     .eureka-bg img {
-        width: 161px;
-        height: 165px;
+        width: 190px;
     }
 
     .eureka-text {
@@ -444,7 +483,7 @@
         color: var(--primary-color);
     }
 
-    .eureka-text p{
+    .eureka-text p {
         margin: 0;
     }
 
@@ -480,12 +519,11 @@
     .products p {
         text-align: start;
         width: 100%;
-        margin-top: 65px;
     }
 
     .products hr {
         width: 763px;
-        margin-bottom: 40px;
+        margin-bottom: 25px;
         margin-left: 0;
         margin-right: auto;
     }
@@ -494,7 +532,7 @@
     .text-product.mx-auto {
         width: 57ch;
         font-size: 20px;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
 
     .sub-menu {
@@ -502,7 +540,7 @@
     }
 
     .sub-menu p {
-        padding-top: 65px;
+        padding-top: 50px;
         text-align: start;
         margin-bottom: 40px;
     }
@@ -510,8 +548,7 @@
 
     .card h5 {
         font-size: 18px;
-        margin-top: 23px;
-        margin-bottom: 13px;
+        margin: 28px auto 24px;
     }
 
     .card-img-top {
@@ -524,7 +561,7 @@
         font-size: 14px;
         width: 30ch;
         margin-top: 15px;
-        
+
     }
 
     .card-body h6 {
@@ -536,17 +573,17 @@
     }
 
     .card.card-medium h6 {
-        left: 75px;
+        margin: 29px auto;
     }
 
     .card.card-medium ul {
-        margin-top: 14px;
+
         width: 288px;
-        height: 237px;
+        height: 205px;
         padding: 48px 31px 48px 35px;
         border-radius: 48px;
     }
-    
+
     .card.card-medium ul li {
         width: 30ch;
         line-height: 18.5px;
@@ -571,7 +608,7 @@
     }
 
     .card-sponsor-img img {
-        width: 146px;
+        width: 200px;
     }
 
     .card.card-small {
@@ -580,13 +617,13 @@
         border-radius: 48px;
     }
 
-    .card.card-small .card-header{
+    .card.card-small .card-header {
         font-size: 18px;
     }
 
-    .card.card-small .card-img-top{
-        width: 200px;
-        height: 166.75px;
+    .card.card-small .card-img-top {
+        width: auto;
+        height: 166px;
     }
 
     .card.card-small ul {
@@ -605,13 +642,13 @@
 
     .card.card-extra ul {
         padding-left: 43px;
-        padding-top: 24px;
+        padding-top: 18px;
         padding-bottom: 20px;
         margin: 0 auto;
         font-size: 12px;
         line-height: 18.5px;
         text-align: left;
-  
+
         border-radius: 50px;
         width: 692px;
         height: 264px;
@@ -633,7 +670,7 @@
         gap: 30px;
     }
 
-    .products-small .card-sponsor{
+    .products-small .card-sponsor {
         grid-column-start: 1;
         grid-column-end: 2;
         justify-self: normal;
@@ -660,5 +697,73 @@
         row-gap: 50px;
     }
 
-    
+    .card-info-img {
+        width: 296px;
+        height: 205px;
+        border-radius: 36px;
+    }
+
+    .card-info-img img:first-child {
+        height: 165px;
+        margin-left: 12px;
+    }
+
+    .card-info-img img:last-child {
+        height: 142px;
+        margin-left: 15px;
+    }
+
+    .card-medium-img {
+        width: 296px;
+        height: 205px;
+        border-radius: 36px;
+    }
+
+    .card-medium-img img {
+        height: 205px;
+        width: auto;
+    }
+
+    #accesoriesCards .card.card-medium:nth-child(3) h6,
+    #accesoriesCards .card.card-medium:nth-child(4) h6 {
+        margin: 27px auto;
+    }
+
+    #merchandisingCards .card.card-medium h6 {
+        margin: 27px auto;
+    }
+
+    .cafetera h5 {
+        margin: 36px auto 28px;
+    }
+
+    .cafetera .card-medium-img {
+        margin: 0 auto;
+    }
+
+    .card.card-list h5 {
+        margin: 36px auto 28px;
+    }
+
+    .card.card-list ul {
+        height: 205px;
+        font-size: 13px;
+        padding: 77px 33px 72px 35px;
+
+
+    }
+
+    #merchandisingCards .card.card-medium:last-child .card-header{
+        margin: 36px auto 28px;
+    }
+
+    .card.card-small .card-small-img {
+        width: 200px;
+        height: 166px;
+        border-radius: 34px;
+    }
+
+    .card.card-small .card-header {
+        margin-top: 21px;
+    }
 }

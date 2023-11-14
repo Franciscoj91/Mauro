@@ -113,7 +113,7 @@ let productsTemplate = {
 
     <div class="collapse d-lg-block" id="collapseProducts">
 
-      <p class="fw-bold">Cápsulas compatibles Nesspreso</p>
+      <p class="fw-bold">Cápsulas compatibles Nespresso</p>
       <hr>
 
       <div class="products-medium">
@@ -222,13 +222,13 @@ let productsTemplate = {
 let suppliesTemplate = {
     url: 'url("./assets/imgs/header/insumos.png")',
     lg: 'url("./assets/imgs/header/insumos-lg.webp")',
-    template: `<p class="fw-bold">Cápsulas compatibles Nesspreso</p>
+    template: `<p class="fw-bold">Insumos</p>
     <hr>
 
     <div class="products-small">
       <div class="card-sponsor">
         <div class="card-sponsor-img">
-          <img src="./assets/imgs/insumos/sponsor.svg" alt="logo sponsor">
+          <img src="./assets/imgs/insumos/sponsor.png" alt="logo sponsor">
         </div>
       </div>
 
@@ -274,11 +274,11 @@ let suppliesTemplate = {
       <div class="card card-small mx-auto">
         <h5 class="card-header fw-bold">OTRAS VARIEDADES</h5>
         <ul>
-          <li>Frappés pistacho</li>
+          <li class="d-lg-none">Frappés pistacho</li>
           <li>Frappés toffee</li>
           <li>Frappés caramelo</li>
           <li>Frappés café</li>
-          <li>Frappés frozen mocka</li>
+          <li>Frappés frozen mocha</li>
         </ul>
 
       </div>
@@ -336,11 +336,11 @@ let suppliesTemplate = {
       <div class="card card-small">
         <h5 class="card-header fw-bold">OTRAS VARIEDADES</h5>
         <ul>
-          <li>Syrup de vainilla</li>
+          <li class="d-lg-none">Syrup de vainilla</li>
           <li>Syrup de avellana</li>
           <li>Syrup té chai</li>
           <li>Syrup de coco</li>
-          <li>Syrup crema Irlandesa</li>
+          <li>Syrup crema irlandesa</li>
           <li>Syrup canela</li>
           <li>Syrup menta verde</li>
         </ul>
@@ -357,7 +357,7 @@ let suppliesTemplate = {
       <div class="card card-sponsor">
         <div class="card-sponsor-img">
           
-          <img src="./assets/imgs/insumos/sponsor-3.svg" alt="">
+          <img src="./assets/imgs/insumos/sponsor-3.png" alt="">
         </div>
       </div>
       <div class="card card-small">
@@ -467,17 +467,17 @@ let accessoriesTemplate = {
           <li>Bomba syrup, unidad dispensadora</li>
           <li>Bomba Salsa, unidad dispensadora</li>
           <li>Filtros Bunn, caja 500 undidades</li>
-          <li>Apoya Tamper, Unidad antideslizante</li>
+          <li>Apoya Tamper, unidad antideslizante</li>
           <li>Filtro ciego metálico, unidad para limpieza cafetera</li>
           <li>Knockbox profesional metálico, unidad para descarga borra de café</li>
           <li>Escobilla limpiadora, unidad plástica</li>
-          <li>Sachets sucralosa logo Caffè Mauro, caja 1000 unidades</li>
+          <li>Sachets sucralosa logo Caffè Mauro: caja 1000 unidades</li>
           <li>Sachets Azúcar logo Caffé Mauro: caja 1000 unidades</li>
           <li>Jarra Lattiera 75 ml logo Caffé Mauro. Unidad acero inoxidable</li>
           <li>Vaso Shot de café. Unidad, vidrio con registro de medida</li>
-          <li>Rinza. detergente limpiador lancetas vaporizador. Formato de 1L</li>
+          <li>Rinza. Detergente limpiador lancetas vaporizador. Formato 1L</li>
           <li>Grindz. Detergente limpiador molinos. Formato 430 g</li>
-          <li>Apoya Tamper, Unidad antideslizante</li>
+          <li>Dezcal. Liquido para descalsificar. Formato 1L</li>
         </ul>
 
       </div>
@@ -531,7 +531,7 @@ let machinesTemplate = {
             class="card-img-top" alt="...">
         </div>
         <div class="card-body">
-          <h6 class="fw-bold">Capacidad 1.2 kg en tolva. Pantalla digital, su rendimiento es optimo para locales de
+          <h6 class="fw-bold">Capacidad 1.2 kg en tolva. Pantalla digital, su rendimiento es óptimo para locales de
             alto flujo.</h6>
         </div>
       </div>
@@ -558,7 +558,7 @@ let machinesTemplate = {
             class="card-img-top" alt="...">
         </div>
         <div class="card-body">
-          <h6 class="fw-bold">Capacidad en tolva 500 gr. Pantalla digital touch. 5.6 kg de peso total.</h6>
+          <h6 class="fw-bold">Capacidad en tolva 510 gr. Pantalla digital touch. 5.6 kg de peso total.</h6>
         </div>
       </div>
 
@@ -575,7 +575,7 @@ let machinesTemplate = {
 
     <div class="products-medium">
 
-      <div class="card card-medium">
+      <div class="card card-medium cafetera">
         <h5 class="card-header fw-bold">RANCILIO 2 GRUPOS</h5>
         <div class="card-medium-img">
 
@@ -585,8 +585,8 @@ let machinesTemplate = {
 
       </div>
 
-      <div class="card card-medium d-none d-lg-block">
-        <h5 class="card-header fw-bold">RANCILIO 3 GRUPOS</h5>
+      <div class="card card-medium d-none d-lg-block cafetera">
+        <h5 class="card-header fw-bold">MAGISTER DELTA 2 GRUPOS</h5>
         <div class="card-medium-img">
 
           <img src="./assets/imgs/Fotos Insumos y Maquinarias/(4) Ma╠üquinas/(4) Ma╠üquinas-35.png"
@@ -597,9 +597,10 @@ let machinesTemplate = {
 
 
 
-      <div class="card card-medium d-none d-lg-block">
+      <div class="card card-medium d-none d-lg-block card-list">
         <h5 class="card-header fw-bold">OTRAS CAFETERAS</h5>
         <ul>
+          <li>Rancilio compactas y 3 grupos</li>
           <li>Magister de 2 y 3 grupos</li>
           <li>La Pavoni de 1 y 2 grupos</li>
         </ul>
@@ -612,8 +613,8 @@ let machinesTemplate = {
 
       <div class="products-medium d-lg-none">
 
-        <div class="card card-medium">
-          <h5 class="card-header fw-bold">RANCILIO 3 GRUPOS</h5>
+        <div class="card card-medium cafetera">
+          <h5 class="card-header fw-bold">MAGISTER DELTA 2 GRUPOS</h5>
           <div class="card-medium-img">
 
             <img src="./assets/imgs/Fotos Insumos y Maquinarias/(4) Ma╠üquinas/(4) Ma╠üquinas-35.png"
@@ -624,9 +625,10 @@ let machinesTemplate = {
 
 
 
-        <div class="card card-medium">
+        <div class="card card-medium card-list">
           <h5 class="card-header fw-bold">OTRAS CAFETERAS</h5>
           <ul>
+            <li>Rancilio compactas y 3 grupos</li>
             <li>Magister de 2 y 3 grupos</li>
             <li>La Pavoni de 1 y 2 grupos</li>
           </ul>
@@ -669,11 +671,13 @@ let merchandisingTemplate = {
 
     <p class="text-product mx-auto mx-lg-0">Todo para iniciar tu proyecto gastronómico está aqui.</p>
 
-    <div class="products-medium">
+    <div class="products-medium" id="merchandisingCards">
 
       <div class="card card-medium">
         <h5 class="card-header fw-bold">TAZA ESPRESSO LOGO CAFFÈ MAURO</h5>
-        <img src="./assets/imgs/merchandising/taza-expresso.svg" class="card-img-top" alt="...">
+        <div class="card-medium-img">
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(5) Merchandising/(5) Merchandising-38.png" alt="">
+        </div>
         <div class="card-body">
           <h6 class="fw-bold">Unidad plato/taza</h6>
         </div>
@@ -683,7 +687,9 @@ let merchandisingTemplate = {
       <div class="card card-medium">
         <h5 class="card-header fw-bold">TAZA CAPPUCCINO
           LOGO CAFFÉ MAURO</h5>
-        <img src="./assets/imgs/merchandising/taza-capuccino.svg" class="card-img-top" alt="...">
+          <div class="card-medium-img">
+            <img src="./assets/imgs/Fotos Insumos y Maquinarias/(5) Merchandising/(5) Merchandising-39.png" alt="">
+          </div>
         <div class="card-body">
           <h6 class="fw-bold">Unidad plato/taza</h6>
         </div>
@@ -692,7 +698,9 @@ let merchandisingTemplate = {
       <div class="card card-medium">
         <h5 class="card-header fw-bold">LECHERO PEQUEÑO
           LOGO CAFFÈ MAURO</h5>
-        <img src="./assets/imgs/merchandising/lechero.svg" class="card-img-top" alt="...">
+          <div class="card-medium-img">
+            <img src="./assets/imgs/Fotos Insumos y Maquinarias/(5) Merchandising/(5) Merchandising-37.png" alt="">
+          </div>
         <div class="card-body">
           <h6 class="fw-bold">Unidad porcelana</h6>
         </div>
@@ -701,7 +709,9 @@ let merchandisingTemplate = {
       <div class="card card-medium">
         <h5 class="card-header fw-bold">PLACA VINILO
           PUBLICIDAD CAFFÈ MAURO</h5>
-        <img src="./assets/imgs/merchandising/placa.svg" class="card-img-top" alt="...">
+          <div class="card-medium-img">
+            <img src="./assets/imgs/Fotos Insumos y Maquinarias/(5) Merchandising/(5) Merchandising-40.png" alt="">
+          </div>
         <div class="card-body">
           <h6 class="fw-bold">Unidad acrílica</h6>
         </div>

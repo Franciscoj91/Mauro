@@ -248,7 +248,7 @@ body {
     border: 0;
     background-color: var(--primary-color);
     color: var(--white-color);
-    padding: 12px 47.44px 12.85px 49px;
+    padding: 12px 20px 12.85px;
     border-radius: 25px;
     font-size: 12px;
 
@@ -479,7 +479,7 @@ footer a {
 
     .section-services button {
         font-size: 16px;
-        padding: 12px 58px;
+        padding: 12px 20px;
         
     }
 
