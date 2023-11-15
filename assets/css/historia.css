@@ -278,7 +278,7 @@
     background-color: #702E3ECC;
 }
 
-@media screen and (width >=992px) {
+@media screen and (width >= 992px) {
     .home-header {
         background-image: url("../imgs/bg-images/historia/header-lg.png");
         min-height: 700px;
@@ -371,7 +371,10 @@
     .fifth-section-alternative {
         min-height: 790px;
         background-image: url("../imgs/bg-images/historia/fifth-section-header-lg.png");
-        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: end;
+        gap: 50px;
     }
 
     .fifth-section-alternative-left p{
@@ -380,6 +383,7 @@
         text-align: right;
         margin-bottom: 12px;
         line-height: 160%;
+        width: 22.16ch;
     }
 
     .line {
@@ -387,6 +391,10 @@
         width: 339px;
         margin-left: auto;
         margin-top: 0;
+    }
+
+    .fifth-section-alternative-right {
+        margin-bottom: 70px;
     }
 
     .fifth-section-alternative-right p {
