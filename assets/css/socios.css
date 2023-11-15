@@ -1,7 +1,7 @@
 .home-header {
-background-image: url("../imgs/bg-images/socios/header.png");
-min-height: 528px;
-align-items: flex-end;
+    background-image: url("../imgs/bg-images/socios/header.png");
+    min-height: 528px;
+    align-items: flex-end;
 }
 
 .header-text {
@@ -54,6 +54,10 @@ align-items: flex-end;
     color: #702E3E;
     display: flex;
     flex-direction: column;
+}
+
+.third-section-img img {
+    width: 100%;
 }
 
 .third-section-text {
@@ -112,6 +116,92 @@ align-items: flex-end;
     margin-bottom: 40px;
 }
 
-.fourth-section a:hover{
+.fourth-section a:hover {
     background-color: #702E3ECC;
+}
+
+@media screen and (width >=992px) {
+    .home-header {
+        background-image: url("../imgs/bg-images/socios/header-lg.png");
+        background-position: center;
+        background-size: cover;
+        min-height: 790px;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+
+    .header-text {
+        width: 49.46ch;
+        font-size: 19px;
+        margin: 228px 0 0 85px;
+        text-align: unset;
+        line-height: 30.4px;
+    }
+
+    .first-section {
+        min-height: 210px;
+    }
+
+    .first-section-text {
+        font-size: 34px;
+        width: fit-content;
+        margin: 0;
+    }
+
+    .second-section {
+        min-height: 359px;
+    }
+
+    .second-section-text {
+        width: 67.7ch;
+        font-size: 20px; /*  */
+        line-height: 180%;
+    }
+
+    .third-section{
+        flex-direction: row;
+    }
+
+    .third-section-img{
+        flex-basis: 50%;
+    }
+
+    .third-section-img img {
+        height: -webkit-fill-available;
+    }
+
+    .third-section-text {
+        flex-basis: 50%;
+    }
+
+    .third-section-title{
+        font-size: 22px;
+        line-height: 175%;
+        text-align: unset;
+        margin-top: 95px;
+        margin-bottom: 44px;
+        width: 34.8ch;
+    }
+
+    .third-section-text ul {
+        margin-bottom: 78px;
+    }
+
+    .third-section-text ul li {
+        font-size: 20px;
+        width: 39.2ch;
+        line-height: 225%;
+    }
+
+    .fourth-section p {
+        font-size: 20px;
+        margin-top: 60px;
+        margin-bottom: 20px;
+    }
+
+    .fourth-section a {
+        font-size: 16px;
+        padding: 12px 16px;
+        margin-bottom: 70px;
+    }
 }
