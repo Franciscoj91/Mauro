@@ -9,8 +9,8 @@ let productsTemplate = {
       <div class="card">
         <h5 class="card-header fw-bold">CAFFÈ MAURO 100% ARÁBICA</h5>
         <div class="card-info-img">
-          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(1) Caffe╠ü Mauro/(1)Caffe╠Ç Mauro-1.png" alt="">
-          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(1) Caffe╠ü Mauro/caffe-mauro-1.svg" alt="">
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/caffe-mauro/caffe-mauro-1.png" alt="">
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/caffe-mauro/caffe-mauro-1.svg" alt="">
         </div>
         <div class="card-body">
           <p class="card-text">Refinada y exclusiva, la mezcla de granos de Arábica de Caffè Mauro
@@ -25,8 +25,8 @@ let productsTemplate = {
       <div class="card">
         <h5 class="card-header fw-bold">CAFFÈ MAURO DE LUXE</h5>
         <div class="card-info-img">
-          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(1) Caffe╠ü Mauro/(1)Caffe╠Ç Mauro-2.png" alt="">
-          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(1) Caffe╠ü Mauro/caffe-mauro-2.svg" alt="">
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/caffe-mauro/caffe-mauro-2.png" alt="">
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/caffe-mauro/caffe-mauro-2.svg" alt="">
         </div>
         <div class="card-body">
           <p class="card-text">Es una mezcla elegante y aromática. Al degustarlo se evidencia mucho
@@ -41,8 +41,8 @@ let productsTemplate = {
       <div class="card">
         <h5 class="card-header fw-bold">CAFFÈ MAURO PREMIUM</h5>
         <div class="card-info-img">
-          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(1) Caffe╠ü Mauro/(1)Caffe╠Ç Mauro-3.png" alt="">
-          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(1) Caffe╠ü Mauro/caffe-mauro-3.svg" alt="">
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/caffe-mauro/caffe-mauro-3.png" alt="">
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/caffe-mauro/caffe-mauro-3.svg" alt="">
         </div>
         <div class="card-body">
           <p class="card-text">Una mezcla equilibrada y envolvente. Notas de cacao y especias llenan
@@ -57,8 +57,8 @@ let productsTemplate = {
       <div class="card">
         <h5 class="card-header fw-bold">CAFFÈ MAURO SPECIAL BAR</h5>
         <div class="card-info-img">
-          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(1) Caffe╠ü Mauro/(1)Caffe╠Ç Mauro-4.png" alt="">
-          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(1) Caffe╠ü Mauro/caffe-mauro-4.svg" alt="">
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/caffe-mauro/caffe-mauro-4.png" alt="">
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/caffe-mauro/caffe-mauro-4.svg" alt="">
         </div>
         <div class="card-body">
           <p class="card-text">Mezcla de sabor fuerte, con la dulzura de los arábicas brasileños sobre
@@ -72,8 +72,8 @@ let productsTemplate = {
       <div class="card">
         <h5 class="card-header fw-bold">CAFFÈ MAURO PERÚ ORGÁNICO</h5>
         <div class="card-info-img">
-          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(1) Caffe╠ü Mauro/(1)Caffe╠Ç Mauro-5.png" alt="">
-          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(1) Caffe╠ü Mauro/caffe-mauro-5.svg" alt="">
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/caffe-mauro/caffe-mauro-5.png" alt="">
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/caffe-mauro/caffe-mauro-5.svg" alt="">
         </div>
         <div class="card-body">
           <p class="card-text">Desarrollo solidario, reforestación y protección de la biodiversidad
@@ -101,7 +101,7 @@ let productsTemplate = {
         <h5 class="card-header fw-bold">CAFFÈ MAURO DESCAFEINADO</h5>
         <div class="card-medium-img">
 
-          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(1) Caffe╠ü Mauro/(1)Caffe╠Ç Mauro-6.png" class="card-img-top" alt="...">
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/caffe-mauro/caffe-mauro-6.png" class="card-img-top" alt="...">
         </div>
         <div class="card-body">
           <h6 class="fw-bold">Formato caja: 18 compostables</h6>
@@ -122,7 +122,7 @@ let productsTemplate = {
           <h5 class="card-header fw-bold">CAFFÈ MAURO 100% ARÁBICA</h5>
           <div class="card-medium-img">
 
-            <img src="./assets/imgs/Fotos Insumos y Maquinarias/(1) Caffe╠ü Mauro/(1)Caffe╠Ç Mauro-7.png" class="card-img-top" alt="...">
+            <img src="./assets/imgs/Fotos Insumos y Maquinarias/caffe-mauro/caffe-mauro-7.png" class="card-img-top" alt="...">
           </div>
           <div class="card-body">
             <h6 class="fw-bold">Formato caja: 10 cápsulas</h6>
@@ -136,7 +136,7 @@ let productsTemplate = {
 
           <div class="card-medium-img">
 
-            <img src="./assets/imgs/Fotos Insumos y Maquinarias/(1) Caffe╠ü Mauro/(1)Caffe╠Ç Mauro-8.png" class="card-img-top" alt="...">
+            <img src="./assets/imgs/Fotos Insumos y Maquinarias/caffe-mauro/caffe-mauro-8.png" class="card-img-top" alt="...">
           </div>
           <div class="card-body">
             <h6 class="fw-bold">Formato caja: 10 cápsulas</h6>
@@ -159,7 +159,7 @@ let productsTemplate = {
           <h5 class="card-header fw-bold">CAFFÈ MAURO 100% ARÁBICA</h5>
           <div class="card-medium-img">
 
-            <img src="./assets/imgs/Fotos Insumos y Maquinarias/(1) Caffe╠ü Mauro/(1)Caffe╠Ç Mauro-9.png" class="card-img-top" alt="...">
+            <img src="./assets/imgs/Fotos Insumos y Maquinarias/caffe-mauro/caffe-mauro-9.png" class="card-img-top" alt="...">
           </div>
           <div class="card-body">
             <h6 class="fw-bold">Formato caja: 50 vainas</h6>
@@ -172,7 +172,7 @@ let productsTemplate = {
           <h5 class="card-header fw-bold">CAFFÈ MAURO DE LUXE</h5>
           <div class="card-medium-img">
 
-            <img src="./assets/imgs/Fotos Insumos y Maquinarias/(1) Caffe╠ü Mauro/(1)Caffe╠Ç Mauro-10.png" class="card-img-top" alt="...">
+            <img src="./assets/imgs/Fotos Insumos y Maquinarias/caffe-mauro/caffe-mauro-10.png" class="card-img-top" alt="...">
           </div>
           <div class="card-body">
             <h6 class="fw-bold">Formato caja: 50 vainas</h6>
@@ -191,7 +191,7 @@ let productsTemplate = {
           <h5 class="card-header fw-bold">CAFFÈ MAURO 100% ARÁBICA</h5>
           <div class="card-medium-img">
 
-            <img src="assets/imgs/Fotos Insumos y Maquinarias/(1) Caffe╠ü Mauro/(1)Caffe╠Ç Mauro-11.png" class="card-img-top" alt="...">
+            <img src="assets/imgs/Fotos Insumos y Maquinarias/caffe-mauro/caffe-mauro-11.png" class="card-img-top" alt="...">
           </div>
           <div class="card-body">
             <h6 class="fw-bold">Formato lata: 250 g</h6>
@@ -204,7 +204,7 @@ let productsTemplate = {
           <h5 class="card-header fw-bold">CAFFÈ MAURO DE LUXE</h5>
           <div class="card-medium-img">
 
-            <img src="./assets/imgs/Fotos Insumos y Maquinarias/(1) Caffe╠ü Mauro/(1)Caffe╠Ç Mauro-12.png" class="card-img-top" alt="...">
+            <img src="./assets/imgs/Fotos Insumos y Maquinarias/caffe-mauro/caffe-mauro-12.png" class="card-img-top" alt="...">
           </div>
           <div class="card-body">
             <h6 class="fw-bold">Formato lata: 250 g</h6>
@@ -512,7 +512,7 @@ let machinesTemplate = {
       <div class="card card-medium-alternative">
         <h5 class="card-header fw-bold">MOLINO DROGHERIA MCD4 75</h5>
         <div class="card-medium-img">
-          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(4) Ma╠üquinas/(4) Ma╠üquinas-30.png"
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/maquinas/maquinas-30.png"
             class="card-img-top" alt="...">
 
         </div>
@@ -526,7 +526,7 @@ let machinesTemplate = {
         <h5 class="card-header fw-bold">MOLINO ATOM SPECIALTY 65 E</h5>
         <div class="card-medium-img">
 
-          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(4) Ma╠üquinas/(4) Ma╠üquinas-31.png"
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/maquinas/maquinas-31.png"
             class="card-img-top" alt="...">
         </div>
         <div class="card-body">
@@ -540,7 +540,7 @@ let machinesTemplate = {
         <h5 class="card-header fw-bold">MOLINO ZENITH NEO 65</h5>
         <div class="card-medium-img">
 
-          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(4) Ma╠üquinas/(4) Ma╠üquinas-32.png"
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/maquinas/maquinas-32.png"
             class="card-img-top" alt="...">
         </div>
         <div class="card-body">
@@ -553,7 +553,7 @@ let machinesTemplate = {
         <h5 class="card-header fw-bold">MOLINO MIGNON SPECIALITA 55</h5>
         <div class="card-medium-img">
 
-          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(4) Ma╠üquinas/(4) Ma╠üquinas-33.png"
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/maquinas/maquinas-33.png"
             class="card-img-top" alt="...">
         </div>
         <div class="card-body">
@@ -578,7 +578,7 @@ let machinesTemplate = {
         <h5 class="card-header fw-bold">RANCILIO 2 GRUPOS</h5>
         <div class="card-medium-img">
 
-          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(4) Ma╠üquinas/(4) Ma╠üquinas-34.png"
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/maquinas/maquinas-34.png"
             class="card-img-top" alt="...">
         </div>
 
@@ -588,7 +588,7 @@ let machinesTemplate = {
         <h5 class="card-header fw-bold">MAGISTER DELTA 2 GRUPOS</h5>
         <div class="card-medium-img">
 
-          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(4) Ma╠üquinas/(4) Ma╠üquinas-35.png"
+          <img src="./assets/imgs/Fotos Insumos y Maquinarias/maquinas/maquinas-35.png"
             class="card-img-top" alt="...">
         </div>
 
@@ -616,7 +616,7 @@ let machinesTemplate = {
           <h5 class="card-header fw-bold">MAGISTER DELTA 2 GRUPOS</h5>
           <div class="card-medium-img">
 
-            <img src="./assets/imgs/Fotos Insumos y Maquinarias/(4) Ma╠üquinas/(4) Ma╠üquinas-35.png"
+            <img src="./assets/imgs/Fotos Insumos y Maquinarias/maquinas/maquinas-35.png"
               class="card-img-top" alt="...">
           </div>
 
@@ -648,7 +648,7 @@ let machinesTemplate = {
           <h5 class="card-header fw-bold">PERCOLADORA WESTBEND 3700</h5>
           <div class="card-medium-img">
 
-            <img src="./assets/imgs/Fotos Insumos y Maquinarias/(4) Ma╠üquinas/(4) Ma╠üquinas-36.png"
+            <img src="./assets/imgs/Fotos Insumos y Maquinarias/maquinas/maquinas-36.png"
               class="card-img-top" alt="...">
           </div>
           <div class="card-body">
