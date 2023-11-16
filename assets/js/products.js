@@ -1,5 +1,5 @@
 let productsTemplate = {
-    url: 'url("./assets/imgs/header/products.png")',
+    url: 'url("./assets/imgs-definitivas/insumos/mauro/header.png")',
     lg: 'url("./assets/imgs/header/products-lg.png")',
     template: `<p class="fw-bold">Caffè Mauro</p>
     <hr>
@@ -220,7 +220,7 @@ let productsTemplate = {
 }
 
 let suppliesTemplate = {
-    url: 'url("./assets/imgs/header/insumos.png")',
+    url: 'url("./assets/imgs-definitivas/insumos/insumos/header.png")',
     lg: 'url("./assets/imgs/header/insumos-lg.webp")',
     template: `<p class="fw-bold">Insumos</p>
     <hr>
@@ -403,12 +403,12 @@ let suppliesTemplate = {
 }
 
 let accessoriesTemplate = {
-    url: 'url("./assets/imgs/header/accesorios.png")',
+    url: 'url("./assets/imgs-definitivas/insumos/accesorios/header.png")',
     lg: 'url("./assets/imgs/header/accesorios-lg.jpg")',
     template: `<p class="fw-bold">Accesorios</p>
     <hr>
 
-    <p class="text-product mx-auto mx-lg-0">Todo lo que tú barra necesita, esta aquí.</p>
+    <p class="text-product mx-auto mx-lg-0">Todo lo que tu barra necesita, está aquí.</p>
 
     <div class="products-medium" id="accesoriesCards">
 
@@ -477,7 +477,7 @@ let accessoriesTemplate = {
           <li>Vaso Shot de café. Unidad, vidrio con registro de medida</li>
           <li>Rinza. Detergente limpiador lancetas vaporizador. Formato 1L</li>
           <li>Grindz. Detergente limpiador molinos. Formato 430 g</li>
-          <li>Dezcal. Liquido para descalsificar. Formato 1L</li>
+          <li>Dezcal. Líquido para descalsificar. Formato 1L</li>
         </ul>
 
       </div>
@@ -487,9 +487,8 @@ let accessoriesTemplate = {
     </div>`
 }
 
-// TODO crear template para la vista de maquinas
 let machinesTemplate = {
-    url: 'url("./assets/imgs/header/maquinas.png")',
+    url: 'url("./assets/imgs-definitivas/insumos/maquinas/header.png")',
     lg: 'url("./assets/imgs/header/maquinas-lg.png")',
     template: `<p class="fw-bold">Molinos</p>
     <hr>
@@ -659,12 +658,12 @@ let machinesTemplate = {
       </div>
     </div>
     <p class="fw-bold d-lg-none" data-bs-toggle="collapse" href="#collapseProducts" role="button"
-      aria-expanded="false" aria-controls="collapseExample" id="collapseText">ver más <img
+      aria-expanded="false" aria-controls="collapseExample" id="collapseTextAlt">ver más <img
         src="./assets/imgs/flecha.svg" alt="icono"></p>`
 }
 
 let merchandisingTemplate = {
-    url: 'url("./assets/imgs/header/merchandising.png")',
+    url: 'url("./assets/imgs-definitivas/insumos/merchandising/header.png")',
     lg: 'url("./assets/imgs/header/merchandising-lg.webp")',
     template: `<p class="fw-bold">Merchandising</p>
     <hr>
@@ -739,6 +738,7 @@ let productsSection = document.querySelector('.products');
 let headerBackground = document.querySelector('.dinamic-header');
 let headerText = document.querySelector('.dinamic-header p');
 let collapseText = document.querySelector('#collapseText');
+let collapseTextAlt; 
 
 
 menu.forEach((item, i) => {
@@ -755,9 +755,14 @@ menu.forEach((item, i) => {
         screen.width >= 992 ? headerBackground.style.backgroundImage = templates[i].lg : headerBackground.style.backgroundImage = templates[i].url;
         headerText.innerText = `${i + 1}. ${item.innerText}`;
         productsSection.innerHTML = templates[i].template;
+        collapseTextAlt = document.querySelector('#collapseTextAlt')
     })
 })
 
 collapseText.addEventListener('click', () => {
     collapseText.innerText === 'ver más ' ? collapseText.innerHTML = `ver menos <img src="./assets/imgs/flecha-inversa.svg" alt="icono">` : collapseText.innerHTML = `ver más <img src="./assets/imgs/flecha.svg" alt="icono">`;
+})
+
+collapseTextAlt.addEventListener('click', () => {
+  collapseTextAlt.innerText === 'ver más ' ? collapseTextAlt.innerHTML = `ver menos <img src="./assets/imgs/flecha-inversa.svg" alt="icono">` : collapseTextAlt.innerHTML = `ver más <img src="./assets/imgs/flecha.svg" alt="icono">`;
 })

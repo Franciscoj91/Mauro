@@ -1,7 +1,7 @@
 /* Pagina de insumos */
 
 .dinamic-header {
-    background: no-repeat url('../imgs/header/products.png');
+    background: no-repeat url('../imgs-definitivas/insumos/mauro/header.png');
     background-size: cover;
 
     min-height: 390px;
@@ -284,7 +284,7 @@
     margin-top: 30px;
 }
 
-#collapseText {
+#collapseText,#collapseTextAlt {
     margin-top: 40px;
     margin-bottom: 0;
     font-size: 12px;
@@ -293,7 +293,7 @@
     color: var(--primary-color);
 }
 
-#collapseText img {
+#collapseText img,#collapseTextAlt img {
     margin-left: 6px;
 }
 

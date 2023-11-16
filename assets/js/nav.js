@@ -1,12 +1,11 @@
 let scrollPosition = window.scrollY;
-console.log(scrollPosition)
 let navBar = document.querySelector('.fixed-top');
 let navLinks = document.querySelector('.navbar-nav');
 
 window.onscroll = () => {
     
     let actualScrollPosition = window.scrollY;
-    if (scrollPosition >= actualScrollPosition) {
+    if (scrollPosition >= actualScrollPosition || actualScrollPosition < 0 || scrollPosition < 0) {
         navBar.style.top = '0';
         if (screen.width >= 992) {
             navBar.style.backgroundColor = "#fff";
