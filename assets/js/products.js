@@ -350,7 +350,7 @@ let suppliesTemplate = {
     <p class="fw-bold">Té orgánico</p>
     <hr>
 
-    <p class="text-product mx-auto mx-lg-0 me-lg-auto">Elige tu sabor preferido. También tenemos bolsitas
+    <p class="text-product mx-auto mx-lg-0 me-lg-auto">Elige tu sabor preferido. También tenemos bolsas
       infusionadoras y teteras con filtros. Formato de 250 gramos.</p>
 
     <div class="products-small">
@@ -438,7 +438,7 @@ let accessoriesTemplate = {
 
       <div class="card card-medium">
         <h5 class="card-header fw-bold">JARRA LATTIERA 50 ML
-          LOGO CAFFÉ MAURO</h5>
+          LOGO È MAURO</h5>
           <div class="card-medium-img">
 
             <img src="./assets/imgs/Fotos Insumos y Maquinarias/(3) Accesorios/(3) Accesorios-28.png" class="card-img-top" alt="...">
@@ -472,8 +472,8 @@ let accessoriesTemplate = {
           <li>Knockbox profesional metálico, unidad para descarga borra de café</li>
           <li>Escobilla limpiadora, unidad plástica</li>
           <li>Sachets sucralosa logo Caffè Mauro: caja 1000 unidades</li>
-          <li>Sachets Azúcar logo Caffé Mauro: caja 1000 unidades</li>
-          <li>Jarra Lattiera 75 ml logo Caffé Mauro. Unidad acero inoxidable</li>
+          <li>Sachets Azúcar logo è Mauro: caja 1000 unidades</li>
+          <li>Jarra Lattiera 75 ml logo è Mauro. Unidad acero inoxidable</li>
           <li>Vaso Shot de café. Unidad, vidrio con registro de medida</li>
           <li>Rinza. Detergente limpiador lancetas vaporizador. Formato 1L</li>
           <li>Grindz. Detergente limpiador molinos. Formato 430 g</li>
@@ -668,7 +668,7 @@ let merchandisingTemplate = {
     template: `<p class="fw-bold">Merchandising</p>
     <hr>
 
-    <p class="text-product mx-auto mx-lg-0">Todo para iniciar tu proyecto gastronómico está aqui.</p>
+    <p class="text-product mx-auto mx-lg-0">Todo para iniciar tu proyecto gastronómico está aquí.</p>
 
     <div class="products-medium" id="merchandisingCards">
 
@@ -685,7 +685,7 @@ let merchandisingTemplate = {
 
       <div class="card card-medium">
         <h5 class="card-header fw-bold">TAZA CAPPUCCINO
-          LOGO CAFFÉ MAURO</h5>
+          LOGO È MAURO</h5>
           <div class="card-medium-img">
             <img src="./assets/imgs/Fotos Insumos y Maquinarias/(5) Merchandising/(5) Merchandising-39.png" alt="">
           </div>

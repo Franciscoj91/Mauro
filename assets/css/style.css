@@ -5,6 +5,7 @@
     --secondary-color: #E8E5E0;
     --white-color: #FFFFFF;
     --80-secondary-color: #E8E5E0CC;
+    scroll-behavior: smooth;
 }
 
 body {
