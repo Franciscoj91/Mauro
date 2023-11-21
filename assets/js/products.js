@@ -750,11 +750,11 @@ menu.forEach((item, i) => {
 
         item.classList.add('fw-bold');
 
-        console.log(screen.width)
         
         screen.width >= 992 ? headerBackground.style.backgroundImage = templates[i].lg : headerBackground.style.backgroundImage = templates[i].url;
         headerText.innerText = `${i + 1}. ${item.innerText}`;
         productsSection.innerHTML = templates[i].template;
+        window.scroll(0,0)
         collapseTextAlt = document.querySelector('#collapseTextAlt')
     })
 })
