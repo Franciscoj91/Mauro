@@ -1,7 +1,7 @@
 let productsTemplate = {
-    url: 'url("./assets/imgs-definitivas/insumos/mauro/header.png")',
-    lg: 'url("./assets/imgs/header/products-lg.png")',
-    template: `<p class="fw-bold">Caffè Mauro</p>
+  url: 'url("./assets/imgs-definitivas/insumos/mauro/header.png")',
+  lg: 'url("./assets/imgs/header/products-lg.png")',
+  template: `<p class="fw-bold">Caffè Mauro</p>
     <hr>
 
     <div class="products-large">
@@ -220,9 +220,9 @@ let productsTemplate = {
 }
 
 let suppliesTemplate = {
-    url: 'url("./assets/imgs-definitivas/insumos/insumos/header.png")',
-    lg: 'url("./assets/imgs/header/insumos-lg.webp")',
-    template: `<p class="fw-bold">Insumos</p>
+  url: 'url("./assets/imgs-definitivas/insumos/insumos/header.png")',
+  lg: 'url("./assets/imgs/header/insumos-lg.webp")',
+  template: `<p class="fw-bold">Insumos</p>
     <hr>
 
     <div class="products-small">
@@ -403,9 +403,9 @@ let suppliesTemplate = {
 }
 
 let accessoriesTemplate = {
-    url: 'url("./assets/imgs-definitivas/insumos/accesorios/header.png")',
-    lg: 'url("./assets/imgs/header/accesorios-lg.jpg")',
-    template: `<p class="fw-bold">Accesorios</p>
+  url: 'url("./assets/imgs-definitivas/insumos/accesorios/header.png")',
+  lg: 'url("./assets/imgs/header/accesorios-lg.jpg")',
+  template: `<p class="fw-bold">Accesorios</p>
     <hr>
 
     <p class="text-product mx-auto mx-lg-0">Todo lo que tu barra necesita, está aquí.</p>
@@ -466,14 +466,14 @@ let accessoriesTemplate = {
         <ul>
           <li>Bomba syrup, unidad dispensadora</li>
           <li>Bomba Salsa, unidad dispensadora</li>
-          <li>Filtros Bunn, caja 500 undidades</li>
+          <li>Filtros Bunn: undidades</li>
           <li>Apoya Tamper, unidad antideslizante</li>
           <li>Filtro ciego metálico, unidad para limpieza cafetera</li>
           <li>Knockbox profesional metálico, unidad para descarga borra de café</li>
           <li>Escobilla limpiadora, unidad plástica</li>
           <li>Sachets sucralosa logo Caffè Mauro: caja 1000 unidades</li>
-          <li>Sachets Azúcar logo è Mauro: caja 1000 unidades</li>
-          <li>Jarra Lattiera 75 ml logo è Mauro. Unidad acero inoxidable</li>
+          <li>Sachets Azúcar logo Caffè Mauro: caja 1000 unidades</li>
+          <li>Jarra Lattiera 75 ml logo Caffè Mauro. Unidad acero inoxidable</li>
           <li>Vaso Shot de café. Unidad, vidrio con registro de medida</li>
           <li>Rinza. Detergente limpiador lancetas vaporizador. Formato 1L</li>
           <li>Grindz. Detergente limpiador molinos. Formato 430 g</li>
@@ -488,9 +488,9 @@ let accessoriesTemplate = {
 }
 
 let machinesTemplate = {
-    url: 'url("./assets/imgs-definitivas/insumos/maquinas/header.png")',
-    lg: 'url("./assets/imgs/header/maquinas-lg.png")',
-    template: `<p class="fw-bold">Molinos</p>
+  url: 'url("./assets/imgs-definitivas/insumos/maquinas/header.png")',
+  lg: 'url("./assets/imgs/header/maquinas-lg.png")',
+  template: `<p class="fw-bold">Molinos</p>
     <hr>
 
     <p class="text-product mx-auto mx-lg-0 me-lg-auto d-lg-none text-eureka">Somos los representantes de Eureka en
@@ -663,9 +663,9 @@ let machinesTemplate = {
 }
 
 let merchandisingTemplate = {
-    url: 'url("./assets/imgs-definitivas/insumos/merchandising/header.png")',
-    lg: 'url("./assets/imgs/header/merchandising-lg.webp")',
-    template: `<p class="fw-bold">Merchandising</p>
+  url: 'url("./assets/imgs-definitivas/insumos/merchandising/header.png")',
+  lg: 'url("./assets/imgs/header/merchandising-lg.webp")',
+  template: `<p class="fw-bold">Merchandising</p>
     <hr>
 
     <p class="text-product mx-auto mx-lg-0">Todo para iniciar tu proyecto gastronómico está aquí.</p>
@@ -721,7 +721,7 @@ let merchandisingTemplate = {
         <ul>
           <li>Taza Latte logo Caffè Mauro, unidad plato/taza</li>
           <li>Vaso vidrio logo Caffè Mauro, unidad</li>
-          <li>Vaso Cafeino logo Caffè Mauro, unidad vidrio</li>
+          <li>Vaso Cafeino logo Caffè Mauro, unidad</li>
           <li>Delantal barista logo Caffè Mauro, unidad</li>
 
         </ul>
@@ -738,31 +738,42 @@ let productsSection = document.querySelector('.products');
 let headerBackground = document.querySelector('.dinamic-header');
 let headerText = document.querySelector('.dinamic-header p');
 let collapseText = document.querySelector('#collapseText');
-let collapseTextAlt; 
+let collapseTextAlt;
 
 
 menu.forEach((item, i) => {
-    item.addEventListener('click', () => {
+  item.addEventListener('click', () => {
 
-        menu.forEach((item) => {
-            item.classList.remove('fw-bold');
-        })
-
-        item.classList.add('fw-bold');
-
-        
-        screen.width >= 992 ? headerBackground.style.backgroundImage = templates[i].lg : headerBackground.style.backgroundImage = templates[i].url;
-        headerText.innerText = `${i + 1}. ${item.innerText}`;
-        productsSection.innerHTML = templates[i].template;
-        window.scroll(0,0)
-        collapseTextAlt = document.querySelector('#collapseTextAlt')
+    menu.forEach((item) => {
+      item.classList.remove('fw-bold');
     })
+
+    item.classList.add('fw-bold');
+
+
+    screen.width >= 992 ? headerBackground.style.backgroundImage = templates[i].lg : headerBackground.style.backgroundImage = templates[i].url;
+    headerText.innerText = `${i + 1}. ${item.innerText}`;
+    productsSection.innerHTML = templates[i].template;
+    window.scroll(0, 0);
+
+    if (i == 3) {
+
+      collapseTextAlt = document.querySelector('#collapseTextAlt');
+      configCollapseText(collapseTextAlt);
+    } else if (i == 0) {
+      collapseText = document.querySelector('#collapseText');
+      configCollapseText(collapseText);
+    }
+
+  })
 })
 
-collapseText.addEventListener('click', () => {
-    collapseText.innerText === 'ver más ' ? collapseText.innerHTML = `ver menos <img src="./assets/imgs/flecha-inversa.svg" alt="icono">` : collapseText.innerHTML = `ver más <img src="./assets/imgs/flecha.svg" alt="icono">`;
-})
+configCollapseText(collapseText);
 
-collapseTextAlt.addEventListener('click', () => {
-  collapseTextAlt.innerText === 'ver más ' ? collapseTextAlt.innerHTML = `ver menos <img src="./assets/imgs/flecha-inversa.svg" alt="icono">` : collapseTextAlt.innerHTML = `ver más <img src="./assets/imgs/flecha.svg" alt="icono">`;
-})
+function configCollapseText(element) {
+  element.addEventListener('click', () => {
+    element.innerText === 'ver más ' ? element.innerHTML = `ver menos <img src="./assets/imgs/flecha-inversa.svg" alt="icono">` : element.innerHTML = `ver más <img src="./assets/imgs/flecha.svg" alt="icono">`;
+  })
+}
+
+
