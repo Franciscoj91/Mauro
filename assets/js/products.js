@@ -438,7 +438,7 @@ let accessoriesTemplate = {
 
       <div class="card card-medium">
         <h5 class="card-header fw-bold">JARRA LATTIERA 50 ML
-          LOGO È MAURO</h5>
+          LOGO CAFFÈ MAURO</h5>
           <div class="card-medium-img">
 
             <img src="./assets/imgs/Fotos Insumos y Maquinarias/(3) Accesorios/(3) Accesorios-28.png" class="card-img-top" alt="...">
@@ -685,7 +685,7 @@ let merchandisingTemplate = {
 
       <div class="card card-medium">
         <h5 class="card-header fw-bold">TAZA CAPPUCCINO
-          LOGO È MAURO</h5>
+          LOGO CAFFÈ MAURO</h5>
           <div class="card-medium-img">
             <img src="./assets/imgs/Fotos Insumos y Maquinarias/(5) Merchandising/(5) Merchandising-39.png" alt="">
           </div>
