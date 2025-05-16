@@ -160,6 +160,7 @@ body {
     font-size: 12px;
     margin-top: 24px;
     text-decoration: none;
+    text-align: center;
 }
 
 .header-btn:hover {
@@ -224,7 +225,7 @@ body {
     margin: 11.53px auto 13.98px;
 }
 
-.principal {
+.second {
     margin-top: 93px;
 }
 
