@@ -1,0 +1,769 @@
+/* Pagina de insumos */
+
+.dinamic-header {
+    background: no-repeat url('../imgs-definitivas/insumos/mauro/header.png');
+    background-size: cover;
+
+    min-height: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.dinamic-header p {
+    color: #000;
+    width: 244px;
+    padding: 7px 0 8px;
+
+    margin-bottom: 20px;
+    border-radius: 50px;
+    background: #f2f0eecc;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+.main-products {
+
+    background: #F2F0EE;
+    color: #000;
+    padding-bottom: 40px;
+
+}
+
+.sub-menu p {
+    border-bottom: 2px solid;
+    margin: 0;
+    padding: 33px 0 15px;
+    width: 296px;
+}
+
+.main-products p a {
+    margin-left: 5.5rem;
+    font-size: 25px;
+    text-decoration: none;
+    color: inherit;
+}
+
+#collapseMenu {
+    text-align: left;
+    align-self: flex-start;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+#collapseMenu ol {
+    padding-left: 20px;
+}
+
+#collapseMenu ol li:nth-child(even) {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+.products p {
+    text-align: center;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30ch;
+}
+
+.products hr {
+    color: #000;
+    width: 296px;
+    margin: 16px auto 22px;
+}
+
+.products .products-small:first-child.card-sponsor {
+    margin-top: 30px;
+}
+
+#contact-btn {
+    display: block;
+    text-decoration: none;
+    font-size: 12px;
+    color: var(--white-color);
+    background-color: var(--primary-color);
+    padding: 12px 38px;
+    margin: 40px auto 0;
+    width: 150px;
+    border-radius: 25px;
+}
+
+#contact-btn:hover {
+    background-color: #702E3ECC;
+}
+
+
+
+
+.main-products .col {
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.products-small {
+    display: grid;
+    grid-template-columns: 158px 158px;
+    grid-auto-rows: 164px;
+    gap: 20px;
+    justify-content: center;
+    border-radius: 30px;
+}
+
+.products-small .card-sponsor {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-self: center;
+}
+
+.products-large {
+    display: grid;
+    grid-template-columns: 290px;
+    column-gap: 50px;
+    row-gap: 30px;
+    grid-auto-rows: 431px;
+    justify-content: center;
+
+}
+
+.products-medium {
+    display: grid;
+    grid-template-columns: 290px;
+    grid-auto-rows: max-content;
+    justify-content: center;
+    border-radius: 50px;
+    column-gap: 50px;
+    row-gap: 30px;
+}
+
+.products-medium-alternative {
+    display: grid;
+    grid-template-columns: 290px;
+    grid-auto-rows: 340px;
+    justify-content: center;
+    border-radius: 50px;
+    row-gap: 30px;
+    column-gap: 50px;
+}
+
+.eureka {
+    width: 180px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.eureka-bg {
+    width: 180px;
+    height: 186.835px;
+    border-radius: 30px;
+    background-color: var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eureka-bg img {
+    width: 160px;
+    height: auto;
+}
+
+.d-lg-none.me-lg-auto.mx-auto.mx-lg-0.text-eureka.text-product {
+    color: var(--primary-color);
+    font-weight: 700;
+    width: 20ch;
+}
+
+
+
+.card {
+    color: #fff;
+    background-color: var(--primary-color);
+    border-radius: 50px;
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+    border: 0;
+}
+
+.card-header {
+    border: 0;
+}
+
+.card h5 {
+    font-size: 14px;
+    width: 24ch;
+    padding: 0;
+    margin: 25px auto 20px;
+}
+
+.card-img-top {
+    width: 237px;
+    height: 166px;
+    margin: 0 auto;
+}
+
+.card-body {
+    padding: 0;
+
+    margin: 0;
+
+}
+
+.card-body p {
+    margin: 10px auto 0;
+    width: 29ch;
+    text-align: justify;
+}
+
+.card-body h6 {
+    position: absolute;
+    bottom: 12px;
+    left: 96px;
+    font-size: 12px;
+    margin: 0;
+    width: 12ch;
+}
+
+.text-product.mx-auto {
+    font-size: 13px;
+    margin-top: 0;
+    width: 35ch;
+    margin-bottom: 30px;
+}
+
+.card.card-medium {
+    height: 290px;
+}
+
+#accesoriesCards .card.card-medium:nth-child(3) h6,
+#accesoriesCards .card.card-medium:nth-child(4) h6 {
+    margin: 22px auto 22px;
+
+}
+
+#accesoriesCards .card.card-medium:nth-child(3) .card-header,
+#accesoriesCards .card.card-medium:nth-child(4) .card-header {
+    margin: 18px auto 13px;
+    width: 20ch;
+}
+
+#merchandisingCards .card.card-medium .card-header {
+    margin: 18px auto 13px;
+    width: 20ch;
+}
+
+#merchandisingCards .card.card-medium:last-child .card-header {
+    margin: 32px auto 24px;
+    width: 20ch;
+}
+
+#merchandisingCards .card.card-medium h6 {
+    margin: 22px auto 22px;
+
+}
+
+#merchandisingCards .card.card-medium ul {
+    padding-top: 38px;
+
+}
+
+
+
+.card.card-medium h6 {
+    position: static;
+    width: 24ch;
+    margin: 23px auto 24px;
+}
+
+#collapseProducts {
+    margin-top: 30px;
+}
+
+#collapseText,#collapseTextAlt {
+    margin-top: 40px;
+    margin-bottom: 0;
+    font-size: 12px;
+    width: fit-content;
+    border-bottom: 1px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+#collapseText img,#collapseTextAlt img {
+    margin-left: 6px;
+}
+
+.card-sponsor {
+    width: 158px;
+    height: 164px;
+    background-color: var(--secondary-color);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+}
+
+.card-sponsor-img {
+    border: 2px solid #000;
+    border-radius: 30px;
+    width: 138px;
+    height: 143px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-sponsor-img img {
+    width: 150px;
+}
+
+.card.card-small {
+    width: 158px;
+    height: 164px;
+    border-radius: 30px;
+    border: 0;
+}
+
+.card.card-small .card-header {
+    font-size: 11.5px;
+    width: 20ch;
+    margin: 16px auto 12px;
+}
+
+.card.card-small .card-small-img {
+    width: 126px;
+    height: 105px;
+    border-radius: 22px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.card.card-small .card-img-top {
+    width: 105px;
+    height: 105px;
+}
+
+.card.card-small ul {
+    padding-left: 20px;
+    margin: 0 auto;
+    font-size: 9px;
+    text-align: left;
+    border: 2px solid #fff;
+    border-radius: 22px;
+    width: 126px;
+    height: 105px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.card.card-medium ul {
+    padding-left: 40px;
+    padding-top: 65px;
+    margin: 4px auto;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: left;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    width: 237px;
+    height: 181px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-medium-img {
+    width: 237px;
+    height: 165px;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cafetera h5 {
+    margin: 30px auto 20px;
+}
+
+.cafetera .card-medium-img {
+    margin: 8px auto;
+}
+
+.card-medium-img img {
+    width: 165px;
+    height: 165px;
+}
+
+
+.card.card-medium-alternative {
+    height: 340px;
+}
+
+.card.card-medium-alternative h6 {
+    position: static;
+    margin: 17.56px auto;
+    width: 25ch;
+    line-height: 17.76px;
+}
+
+.card.card-extra {
+    width: 290px;
+    height: 534px;
+    border-radius: 40px;
+}
+
+.card.card-extra ul {
+    padding-left: 20px;
+    padding-top: 33px;
+    margin: 0 auto;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: left;
+    border: 2px solid #fff;
+    border-radius: 34px;
+    width: 237px;
+    height: 443px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card.card-extra ul li {
+    width: 28ch;
+}
+
+.card-info-img {
+    width: 237px;
+    height: 165px;
+    border-radius: 30px;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.card-info-img img:first-child {
+    width: auto;
+    height: 135px;
+    margin-left: 10px;
+}
+
+.card-info-img img:last-child {
+    margin-left: 8px;
+}
+
+@media only screen and (min-width: 992px) {
+
+    .eureka {
+        display: flex;
+        justify-content: flex-start;
+        gap: 52px;
+    }
+
+    .eureka-bg {
+        width: 240px;
+        height: 249.114px;
+        border-radius: 48px;
+    }
+
+    .eureka-bg img {
+        width: 190px;
+    }
+
+    .eureka-text {
+        flex-direction: column;
+        justify-content: center;
+        color: var(--primary-color);
+    }
+
+    .eureka-text p {
+        margin: 0;
+    }
+
+
+    #collapseMenu {
+        margin-bottom: 96px;
+        font-size: 18px;
+    }
+
+    #collapseMenu ol li:nth-child(even) {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .dinamic-header {
+        min-height: 405px;
+        background: no-repeat url('../imgs/header/products-lg.png');
+        background-size: cover;
+    }
+
+    .dinamic-header p {
+        width: 408px;
+        margin-bottom: 34px;
+        font-size: 23px;
+        padding: 3px 0;
+    }
+
+    .main-products {
+        font-size: 20px;
+        padding-bottom: 70px;
+    }
+
+    .products p {
+        text-align: start;
+        width: 100%;
+    }
+
+    .products hr {
+        width: 763px;
+        margin-bottom: 25px;
+        margin-left: 0;
+        margin-right: auto;
+    }
+
+
+    .text-product.mx-auto {
+        width: 57ch;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .sub-menu {
+        top: 25%;
+    }
+
+    .sub-menu p {
+        padding-top: 50px;
+        text-align: start;
+        margin-bottom: 40px;
+    }
+
+
+    .card h5 {
+        font-size: 18px;
+        margin: 28px auto 24px;
+    }
+
+    .card-img-top {
+        width: 295.84px;
+        height: 200px;
+    }
+
+    .card-body .card-text {
+        text-align: justify;
+        font-size: 14px;
+        width: 30ch;
+        margin-top: 15px;
+
+    }
+
+    .card-body h6 {
+        left: 120px;
+    }
+
+    .card.card-medium {
+        height: 353px;
+    }
+
+    .card.card-medium h6 {
+        margin: 29px auto;
+    }
+
+    .card.card-medium ul {
+
+        width: 288px;
+        height: 205px;
+        padding: 48px 31px 48px 35px;
+        border-radius: 48px;
+    }
+
+    .card.card-medium ul li {
+        width: 30ch;
+        line-height: 18.5px;
+    }
+
+    #contact-btn {
+        font-size: 16px;
+        width: 186px;
+        margin: 70px auto 0;
+    }
+
+    .card-sponsor {
+        width: 250px;
+        height: 250px;
+        border-radius: 48px;
+    }
+
+    .card-sponsor-img {
+        width: 205px;
+        height: 205px;
+        border-radius: 44px;
+    }
+
+    .card-sponsor-img img {
+        width: 200px;
+    }
+
+    .card.card-small {
+        width: 250px;
+        height: 250px;
+        border-radius: 48px;
+    }
+
+    .card.card-small .card-header {
+        font-size: 18px;
+    }
+
+    .card.card-small .card-img-top {
+        width: auto;
+        height: 166px;
+    }
+
+    .card.card-small ul {
+        width: 196.257px;
+        height: 161.563px;
+        font-size: 13px;
+        padding-left: 30px;
+        border-radius: 38px;
+    }
+
+    .card.card-extra {
+        width: 764px;
+        height: 373px;
+        border-radius: 50px;
+    }
+
+    .card.card-extra ul {
+        padding-left: 43px;
+        padding-top: 18px;
+        padding-bottom: 20px;
+        margin: 0 auto;
+        font-size: 12px;
+        line-height: 18.5px;
+        text-align: left;
+
+        border-radius: 50px;
+        width: 692px;
+        height: 264px;
+        flex-wrap: wrap;
+    }
+
+    .card.card-extra ul li {
+        width: 35ch;
+    }
+
+    .card.card-medium-alternative {
+        height: auto;
+    }
+
+    .products-small {
+        grid-template-columns: 250px 250px 250px;
+        grid-auto-rows: 250px;
+        justify-content: flex-start;
+        gap: 30px;
+    }
+
+    .products-small .card-sponsor {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        justify-self: normal;
+    }
+
+    .products-large {
+        grid-template-columns: 352.66px 352.66px;
+        grid-auto-rows: 514.54px;
+        justify-content: flex-start;
+        row-gap: 50px;
+    }
+
+    .products-medium {
+        grid-template-columns: 353px 353px;
+        grid-auto-rows: max-content;
+        justify-content: flex-start;
+        row-gap: 50px;
+    }
+
+    .products-medium-alternative {
+        grid-template-columns: 353px 353px;
+        grid-auto-rows: 400px;
+        justify-content: flex-start;
+        row-gap: 50px;
+    }
+
+    .card-info-img {
+        width: 296px;
+        height: 205px;
+        border-radius: 36px;
+    }
+
+    .card-info-img img:first-child {
+        height: 165px;
+        margin-left: 12px;
+    }
+
+    .card-info-img img:last-child {
+        height: 142px;
+        margin-left: 15px;
+    }
+
+    .card-medium-img {
+        width: 296px;
+        height: 205px;
+        border-radius: 36px;
+    }
+
+    .card-medium-img img {
+        height: 205px;
+        width: auto;
+    }
+
+    #accesoriesCards .card.card-medium:nth-child(3) h6,
+    #accesoriesCards .card.card-medium:nth-child(4) h6 {
+        margin: 27px auto;
+    }
+
+    #merchandisingCards .card.card-medium h6 {
+        margin: 27px auto;
+    }
+
+    .cafetera h5 {
+        margin: 36px auto 28px;
+    }
+
+    .cafetera .card-medium-img {
+        margin: 0 auto;
+    }
+
+    .card.card-list h5 {
+        margin: 36px auto 28px;
+    }
+
+    .card.card-list ul {
+        height: 205px;
+        font-size: 13px;
+        padding: 77px 33px 72px 35px;
+
+
+    }
+
+    #merchandisingCards .card.card-medium:last-child .card-header{
+        margin: 36px auto 28px;
+    }
+
+    .card.card-small .card-small-img {
+        width: 200px;
+        height: 166px;
+        border-radius: 34px;
+    }
+
+    .card.card-small .card-header {
+        margin-top: 21px;
+    }
+}
