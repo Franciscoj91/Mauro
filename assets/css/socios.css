@@ -8,17 +8,17 @@
     text-align: right;
     font-size: 12px;
     font-weight: 700;
-    line-height: 20.4px;
-    width: 24.4ch;
-    margin-bottom: 194px;
-    margin-right: 74px;
+    line-height: 170%;
+    width: 25.4ch;
+    margin-bottom: 178px;
+    margin-right: 68px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .first-section {
     min-height: 155px;
-    color: #702E3E;
-    background-color: #F2F0EE;
+    color: #F2F0EE;
+    background-color:  #702E3E;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,15 +34,16 @@
 }
 
 .second-section {
-    min-height: 375px;
+    min-height: 325px;
     display: flex;
     justify-content: center;
     align-items: center;
-
+    color: #702E3E;
+    background-color: #F2F0EE;
 }
 
 .second-section-text {
-    width: 34.7ch;
+    width: 31ch;
     text-align: center;
     font-size: 12px;
     font-weight: 700;
@@ -74,22 +75,10 @@
     font-weight: 700;
     width: 31.9ch;
     margin-top: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 22px;
 }
 
-.third-section-text ul {
-    margin: 0;
-}
 
-.third-section-text ul li {
-    font-size: 12px;
-    width: 32ch;
-    color: #000;
-}
-
-.third-section-text ul li::marker {
-    color: #702E3E;
-}
 
 
 .fourth-section {
@@ -101,7 +90,6 @@
 }
 
 .fourth-section p {
-    margin-top: 40px;
     margin-bottom: 15px;
     font-size: 12px;
     font-weight: 700;
@@ -113,7 +101,7 @@
     text-decoration: none;
     background-color: #702E3E;
     border-radius: 30px;
-    padding: 12px 13px;
+    padding: 12px 37px;
     margin-bottom: 40px;
 }
 
