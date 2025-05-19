@@ -662,76 +662,9 @@ let machinesTemplate = {
         src="./assets/imgs/flecha.svg" alt="icono"></p>`
 }
 
-let merchandisingTemplate = {
-  url: 'url("./assets/imgs-definitivas/insumos/merchandising/header.png")',
-  lg: 'url("./assets/imgs/header/merchandising-lg.webp")',
-  template: `<p class="fw-bold">Merchandising</p>
-    <hr>
-
-    <p class="text-product mx-auto mx-lg-0">Todo para iniciar tu proyecto gastronómico está aquí.</p>
-
-    <div class="products-medium" id="merchandisingCards">
-
-      <div class="card card-medium">
-        <h5 class="card-header fw-bold">TAZA ESPRESSO LOGO CAFFÈ MAURO</h5>
-        <div class="card-medium-img">
-          <img src="./assets/imgs/Fotos Insumos y Maquinarias/(5) Merchandising/(5) Merchandising-38.png" alt="">
-        </div>
-        <div class="card-body">
-          <h6 class="fw-bold">Unidad plato/taza</h6>
-        </div>
-      </div>
 
 
-      <div class="card card-medium">
-        <h5 class="card-header fw-bold">TAZA CAPPUCCINO
-          LOGO CAFFÈ MAURO</h5>
-          <div class="card-medium-img">
-            <img src="./assets/imgs/Fotos Insumos y Maquinarias/(5) Merchandising/(5) Merchandising-39.png" alt="">
-          </div>
-        <div class="card-body">
-          <h6 class="fw-bold">Unidad plato/taza</h6>
-        </div>
-      </div>
-
-      <div class="card card-medium">
-        <h5 class="card-header fw-bold">LECHERO PEQUEÑO
-          LOGO CAFFÈ MAURO</h5>
-          <div class="card-medium-img">
-            <img src="./assets/imgs/Fotos Insumos y Maquinarias/(5) Merchandising/(5) Merchandising-37.png" alt="">
-          </div>
-        <div class="card-body">
-          <h6 class="fw-bold">Unidad porcelana</h6>
-        </div>
-      </div>
-
-      <div class="card card-medium">
-        <h5 class="card-header fw-bold">PLACA VINILO
-          PUBLICIDAD CAFFÈ MAURO</h5>
-          <div class="card-medium-img">
-            <img src="./assets/imgs/Fotos Insumos y Maquinarias/(5) Merchandising/(5) Merchandising-40.png" alt="">
-          </div>
-        <div class="card-body">
-          <h6 class="fw-bold">Unidad acrílica</h6>
-        </div>
-      </div>
-
-      <div class="card card-medium">
-        <h5 class="card-header fw-bold">MÁS MERCHANDISING</h5>
-        <ul>
-          <li>Taza Latte logo Caffè Mauro, unidad plato/taza</li>
-          <li>Vaso vidrio logo Caffè Mauro, unidad</li>
-          <li>Vaso Cafeino logo Caffè Mauro, unidad</li>
-          <li>Delantal barista logo Caffè Mauro, unidad</li>
-
-        </ul>
-      </div>
-
-
-    </div>`
-}
-
-let templates = [productsTemplate, suppliesTemplate, accessoriesTemplate, machinesTemplate, merchandisingTemplate];
+let templates = [productsTemplate, suppliesTemplate, accessoriesTemplate, machinesTemplate];
 
 let menu = document.querySelectorAll('ol li');
 let productsSection = document.querySelector('.products');
