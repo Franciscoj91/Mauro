@@ -222,7 +222,7 @@ let productsTemplate = {
 let suppliesTemplate = {
   url: 'url("./assets/imgs-definitivas/insumos/insumos/header.png")',
   lg: 'url("./assets/imgs/header/insumos-lg.webp")',
-  template: `<p class="fw-bold">Insumos</p>
+  template: `<p class="fw-bold">Productos</p>
     <hr>
 
     <div class="products-small">
